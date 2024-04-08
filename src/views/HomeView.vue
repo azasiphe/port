@@ -69,6 +69,42 @@
 
 	<div class="contact-section">	
 		<div class="contact-close hover-target"></div>
+    
+<div class="video">
+            <div class="overlay">
+                <div class="container">
+                    <h2>contact me</h2>
+                    <div class="social">
+                    <i class="fas fa-phone-alt contact-icon"></i>
+                        <span class="contact-number">083 398 3284</span>
+<i class="fas fa-map-marker-alt ml-3"></i>
+<span class="location">Khayelitsha/Harare</span>
+  
+                    </div>
+                    <form>
+                        <input type="text" name="name" placeholder=" your name">
+                        <input type="email" name="email" placeholder="your email">
+                        <input type="tel" name="phone" placeholder="your phone">
+                        <input type="url" name="website" placeholder="your website">
+                        <input type="text" name="subject" placeholder="subject">
+                        <textarea placeholder="your message"></textarea>
+                        <button><div>send
+                            <i class="fa fa-arrow-right"></i></div>
+                        </button>
+                    </form>
+                    <div class="social">
+                   
+<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-github"></i>
+</a>
+<a href="https://www.linkedin.com/in/azasiphe-ndoro-01918827a/" target="_blank" rel="noopener noreferrer">
+    <i class="fab fa-linkedin"></i>
+</a>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
 		</div>
 
     <div class="travel-section">   
@@ -296,7 +332,7 @@
 </div>
 	<div class="nature-section">	
 		<div class="nature-close hover-target"></div>
-		<h1 class="trade-winds-regular">PROJECTS</h1>
+		<h1 class="trade-winds-regular">MY WORK</h1>
 
 <div class="projects">
     <div class="project-container">
@@ -310,6 +346,71 @@
                     <div class="button-container">
                         <a href="https://to-do-list-kumk1zdob-azasiphes-projects.vercel.app/" target="_blank" class="live-button">Live</a>
                         <a href="https://github.com/azasiphe/To-Do-List.git" target="_blank" class="code-button">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card project-card">
+            <div class="card-content" style="background-color: black;">
+                <img src="https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png" class="pro-image" />
+                <p class="project-name">Ecommerce</p>
+                <div class="project-details">
+                    <p class="project-name">Ecommerce</p>
+                    <div class="button-container">
+                        <a href="https://node-project-1feb7.web.app/" target="_blank" class="live-button">Live</a>
+                        <a href="https://github.com/gcusaaa/createApplication" target="_blank" class="code-button">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card project-card">
+            <div class="card-content" style="background-color: black;">
+                <img src="https://i.ibb.co/Ry5zzCF/Screenshot-2024-01-11-131116.png" class="pro-image" />
+                <p class="project-name">Age to Days</p>
+                <div class="project-details">
+                    <p class="project-name">Age to Days</p>
+                    <div class="button-container">
+                        <a href="https://days-calculator-gold.vercel.app/" target="_blank" class="live-button">Live</a>
+                        <a href="https://github.com/azasiphe/days-calculator.git" target="_blank" class="code-button">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card project-card">
+            <div class="card-content" style="background-color: black;">
+                <img src="https://i.ibb.co/BfwyhJP/Screenshot-2024-01-11-132806.png" class="pro-image" />
+                <p class="project-name">Triangle area Calculator</p>
+                <div class="project-details">
+                    <p class="project-name">Triangle area Calculator</p>
+                    <div class="button-container">
+                        <a href="https://triangle-vert.vercel.app/" target="_blank" class="live-button">Live</a>
+                        <a href="https://github.com/azasiphe/triangle.git" target="_blank" class="code-button">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card project-card">
+            <div class="card-content" style="background-color: black;">
+                <img src="https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png" class="pro-image" />
+                <p class="project-name">Keyboardt</p>
+                <div class="project-details">
+                    <p class="project-name">Keyboard</p>
+                    <div class="button-container">
+                        <a href="keyboard2-5d0c7ftgg-azasiphes-projects.vercel.app" target="_blank" class="live-button">Live</a>
+                        <a href="https://github.com/azasiphe/keyboard-android.git" target="_blank" class="code-button">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card project-card">
+            <div class="card-content" style="background-color: black;">
+                <img src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" class="pro-image" />
+                <p class="project-name">Turbo website</p>
+                <div class="project-details">
+                    <p class="project-name">To Do list</p>
+                    <div class="button-container">
+                        <a href="capstone-project-45314.firebaseapp.com" target="_blank" class="live-button">Live</a>
+                        <a href="https://github.com/azasiphe/capstone-project.git" target="_blank" class="code-button">Code</a>
                     </div>
                 </div>
             </div>
@@ -729,7 +830,8 @@ text-shadow: red 5px 4px 8px;
 	display: block;
 	overflow: hidden;
 	height: 100vh;
-	background-color: #102770;
+	background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');
+  background-size: cover;
 	transform: translateX(100%);
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear;
@@ -760,22 +862,8 @@ body.contact-on .contact-section {
 .contact-close:hover {
     transform: rotate(90deg);
 }
-.contact-section a{
-    margin: 0 auto;
-	font-size: 32px;
-	font-weight: 900;
-	letter-spacing: 1px;
-	color: #fff;
-  display: inline-block;
-}
-.contact-section .social a{
-    margin-left: 8px;
-	margin-right: 8px;
-	font-size: 15px;
-	font-weight: 700;
-	letter-spacing: 1px;
-	color: #ffeba7;
-}
+
+
 @media screen and (max-width: 580px){
 	.contact-section a{
 		font-size: 17px;
@@ -1082,4 +1170,275 @@ body.nature-on .nature-section {
 		font-size: 13vw;
 	}
 }
+/* projects */
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-card {
+  background-color: black;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  width: calc(33.33% - 40px);
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.5s;
+  box-sizing: border-box;
+  animation: border-color-animation 5s infinite;
+}
+
+@keyframes border-color-animation {
+  0% { border-color: green; }
+  20% { border-color: blue; }
+  30% { border-color: pink; }
+  40% { border-color: red; }
+  50% { border-color: white; }
+  60% { border-color: black; }
+  80% { border-color: yellow; }
+  100% { border-color: green; }
+}
+
+.pro-image {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+  border: 5px solid black;
+  transition: filter 0.5s;
+}
+
+.project-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.project-card:hover .project-details {
+  opacity: 1;
+}
+
+.project-name {
+  font-style: italic;
+  color: red;
+  font-size: 25px;
+  text-decoration: underline 2px solid black;
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.live-button,
+.code-button {
+  background-color: black;
+  color: red;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: 3px solid red;
+  transition: background-color 0.3s ease;
+}
+
+.live-button:hover,
+.code-button:hover {
+  background-color: red;
+  color: black;
+}.video {
+    min-width: 100%;
+    max-height: 720px;
+   
+
+}
+.video img {
+    min-width: 100%;
+    min-height: 100%;
+
+}
+.video .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    padding-top: 80px;
+     background-color: rgba(0, 32, 60, 0.44);
+}
+.video .overlay h2 {
+  text-transform: uppercase;
+  font-size: 35px
+}
+.video .overlay p {
+    color: #cccccc !important;
+}
+.video .overlay .social {
+    margin-top: 40px;
+    gap:5%;
+}
+.video .overlay .social i {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid #cccccc;
+    line-height: 55px;
+    font-size: 25px;
+    transition: .5s ease;
+    margin-right: 5px;
+}
+.video .overlay .social i:last-child {
+    margin-right: 0;
+    gap:5%;
+}
+.video .overlay .social i:hover {
+    border-color: #0b8ffe;
+    cursor: pointer;
+    gap:5%;
+    box-shadow: 0 0 20px #0b8ffe;
+    transform: scale(1.2)
+}
+.video .overlay form {
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.video .overlay form input {
+    height: 40px;
+    background-color: transparent;
+    padding: 5px 0px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+  color: #fff;
+}
+.video .overlay form textarea {
+    background-color: transparent;
+    padding: 5px 0px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 100%;
+  color: #fff;
+}
+.video .overlay form input:focus,.video .overlay form textarea:focus {
+    border-bottom-color: #0b8ffe;
+    box-shadow: 0px 0px 20px rgba(11, 143, 254, 0.42);
+}
+.video .overlay form input::-webkit-input-placeholder,
+.video .overlay form textarea::-webkit-input-placeholder {
+    color: #e8e8e8;
+    text-transform: capitalize;
+}
+.video .overlay form [name="name"],
+.video .overlay form [name="email"],
+.video .overlay form [name="phone"] {
+    width: 31%;
+}
+.video .overlay form [name="website"],
+.video .overlay form [name="subject"] {
+    width: 48%;
+    margin-bottom: 80px;
+}
+.video .overlay form button {
+    background-color: transparent;
+    padding: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 1s ease;
+    overflow: hidden;
+}
+.video .overlay form button:hover {
+    color: #0b8ffe;
+    border-color: #0b8ffe;
+    box-shadow: 0 0 20px #0b8ffe;
+  cursor: pointer
+}
+.video .overlay form button:hover div {
+   /* transform: rotate(-422deg) scale(1.5, 1.5) translate(50%, 50px);*/
+    transform: scale(2) translateX(200px);
+    transition: 1s ease-in-out;
+    color: transparent;
+}
+/* ----------- start media query for video & contact ----*/
+@media only screen and (max-width: 575px) {
+    .video .overlay {
+        padding-top: 40px;
+    }
+    .video .overlay .social {
+        margin-top: 30px;        
+        
+    }
+    .video .overlay .social i {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .video .overlay form {
+        width: 90%;
+        margin: 40px auto 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .video .overlay form input {
+        width: 95% !important;
+        margin-bottom: 15px !important;
+    }
+    .video .overlay form textarea {
+        width: 95%;
+        margin-top: 15px;
+    }
+    .video .overlay form button {
+        width: 95%;
+    }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+    
+    .video .overlay form {
+        width: 90%;
+        margin: 60px auto 0;
+    }
+    .video .overlay form [name="name"],
+    .video .overlay form [name="email"] {
+        width: 48%;
+    }
+    .video .overlay form [name="phone"],
+    .video .overlay form [name="website"] {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+    .video .overlay form [name="subject"] {
+        width: 100%;
+    }
+    
+}
+
+
 </style>
