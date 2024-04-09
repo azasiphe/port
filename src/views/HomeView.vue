@@ -29,42 +29,46 @@
   <div class="about-section  ">	
     <div class="about-close hover-target"></div>
     <div class="both">
-        <div class="row justify-content-center align-items-center mt-3">
-            <div class="col-md-3">
-                <img src="https://i.ibb.co/DpD3Fyv/1000042200-1332fcb3592c5142eb9277536f14af06-2023-07-19-23-18-14-removebg-preview.png" class="img-a" >
-            </div>
-            <div class="col-md-7">
-                <div class="background">
-                    <p class="trade-winds-regular">Who am I?</p>
-                    <div class="desc">
-                    <p>Fullname: Azasiphe Ndoro</p>
-                    <p>D.O.B: 14 November 2004</p>
-                    <p>Hi! Through this portfolio, I invite you to explore the culmination of my work, creativity, and passion. It's a reflection of who I am, what I stand for, and the boundless potential I believe we all possess. Thank you for joining me on this journey.</p>
-                  </div>
-                  </div>
-            </div>
-        </div>
+  <div class="row justify-content-center align-items-center mt-3">
+    <div class="col-md-3 profile">
+      <h2 class="trade-winds-regular" style="font-size: 20px">My Profile</h2>
+      <img class="profilepic" src="https://ca.slack-edge.com/T02LW4RMXJQ-U05UP1YTAQY-a27bb9cfae7f-512" alt="Azasiphe Ndoro" />
+      <ul class="main-info-list" style="color: white; margin-right: 17%; 
+  font-style: italic;
+  text-shadow: red 4px 3px 9px;">
+        <ol>Name:Azasiphe Ndoro</ol>
+        <ol>Born:14 November 2004</ol>
+        <button @click="downloadCV" class="cv-button " style="background-color: crimson; color: aliceblue; border-radius: 15px; border:2px solid black;" >visit my CV</button>
+      </ul>
+      <div class="paper-clip"></div>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-md-3">
-            <div class="desc">
-                <div class="icon-me"><i class="bi bi-person"></i></div>
-                <p>A fullstack developer with a current focus on front-end development. I find joy in every aspect of the design process, from collaborative discussions to bringing ideas to life through code.</p>
-            </div>
+    <div class="col-md-8">
+      <div class="background">
+        <p class="trade-winds-regular"><strong>Who am I?</strong></p>
+        <div class="desc">
+          <p>Hi there! Welcome to my portfolio, where I'm excited to share the culmination of my work, creativity, and passion. This space reflects who I am, my values, and the endless potential I believe we all possess. Join me on this journey of exploration and discovery.</p>
+                <p>
+                I'm Azasiphe Ndoro, a software developer, illustrator, and enthusiast of design and structured coding. Like many, I started as a beginner, eager to absorb knowledge. I enjoy blogging about coding and sharing what I learn. My curiosity drives me to research and experiment with code and design, exploring the fascinating intersection between art and technology. This love for design stems from my appreciation of various art forms, from galleries to makeup and poetry. Let's connect and delve deeper into this dynamic world of creativity and innovation.
+                </p>
         </div>
-        <div class="col-md-3">
-            <div class="desc">
-                <div class="icon-me"><i class="bi bi-book"></i></div>
-                <p>As a front-end developer, I specialize in crafting engaging and user-friendly interfaces. I am passionate about creating seamless experiences that not only look good but also deliver exceptional functionality. I thrive on the challenges of turning design concepts into interactive and responsive web applications.</p>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="desc">
-                <div class="icon-me"><i class="bi bi-lightning"></i></div>
-                <p>In addition to my core skills, I am continuously expanding my knowledge and exploring new technologies. I believe that staying curious and embracing new challenges are essential traits for a developer.</p>
-            </div>
-        </div>
+      </div>
     </div>
+    <div class="substrate">
+  <h3 class="trade-winds-regular">My Hobbies</h3>
+  <ul class="skills">
+    <li class="skill"><span><i class="fas fa-book" style="color: red;"></i> Reading Books</span></li>
+    <li class="skill"><span><i class="fas fa-laptop-code" style="color: red;"></i> Coding</span></li>
+    <li class="skill"><span><i class="fas fa-paint-brush" style="color: red;"></i> Makeup</span></li>
+    <li class="skill"><span><i class="fas fa-palette" style="color: red;"></i> Art</span></li>
+    <li class="skill"><span><i class="fas fa-feather-alt" style="color: red;"></i> Poetry</span></li>
+    <li class="skill"><span><i class="fas fa-music" style="color: red;"></i> Music</span></li>
+  </ul>
+  <div class="paper-clip"></div>
+</div>
+  </div>
+</div>
+   
+    
 </div>
 
 	<div class="contact-section">	
@@ -431,15 +435,12 @@
 	</a>
 
 </template>
-
-
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    // Your JavaScript code here
-    (function($) { "use strict";
-    
+    (function($) {
+        "use strict";
+
         //Page cursors
-    
         document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
             t.style.left = n.clientX + "px"; 
             t.style.top = n.clientY + "px"; 
@@ -465,62 +466,58 @@ document.addEventListener("DOMContentLoaded", function() {
         function o(t) {
             t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
         }
-    
-        
-        //About page
-        
+
+        // About page
         $(".about-text").on('click', function () {
             $("body").addClass("about-on");
         });
         $(".about-close").on('click', function () {
             $("body").removeClass("about-on");
         });
-    
-        
-        //Contact page
-        
+
+        // Contact page
         $(".contact-text").on('click', function () {
             $("body").addClass("contact-on");
         });
         $(".contact-close").on('click', function () {
             $("body").removeClass("contact-on");
         });
-    
-        
-        //Travel portfolio page
-        
+
+        // Travel portfolio page
         $(".travel").on('click', function () {
             $("body").addClass("travel-on");
         });
         $(".travel-close").on('click', function () {
             $("body").removeClass("travel-on");
         });
-    
-        
-        //Wildlife portfolio page
-        
+
+        // Wildlife portfolio page
         $(".wildlife").on('click', function () {
             $("body").addClass("wildlife-on");
         });
         $(".wildlife-close").on('click', function () {
             $("body").removeClass("wildlife-on");
         });
-    
-        
-        //Nature portfolio page
-        
+
+        // Nature portfolio page
         $(".nature").on('click', function () {
             $("body").addClass("nature-on");
         });
         $(".nature-close").on('click', function () {
             $("body").removeClass("nature-on");
         });
+
         
+        function downloadCV() {
+            window.open('https://i.ibb.co/0q7wNbX/Gray-and-Blush-Feminine-Resume.png', '_blank');
+        }
+
+     
+        $('.download-cv-button').on('click', function() {
+            downloadCV();
+        });
+
     })(jQuery);
-
-
-
-   
 });
 </script>
 <style scoped>
@@ -1440,5 +1437,98 @@ body.nature-on .nature-section {
     
 }
 
+.both {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: transparent; /* Set background color to transparent */
+  border: 2px solid transparent;
+}
+
+.profile {
+  background-color: transparent; /* Set background color to transparent */
+  border: 2px solid transparent; /* Set border color to transparent */
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.profile .paper-clip {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 60px;
+  background-image: url('https://lh5.googleusercontent.com/-_VvJpGXP9N0/UwdDY7l-CQI/AAAAAAAABTI/xXPDe4i5lbQ/s330/paper-clip.png');
+  background-size: cover;
+  clip-path: polygon(0% 0%, 50% 100%, 100% 0%);
+}
+
+.background {
+  padding: 20px;
+ 
+  background-color: transparent; /* Set background color to transparent */
+  border: 2px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.background p {
+  font-weight: bold;
+  font-style: italic;
+  font-size:23px;
+  text-shadow: red 4px 3px 9px;
+}
+.profile {
+box-shadow:4px solid #1f2029;
+  font-size:20px;
+  background-color: transparent; 
+}
+.profilepic{
+
+  border-radius: 0%;
+}  .substrate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .skills {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .skill span {
+    display: inline-block;
+    font-size: 18px; /* Adjust the font size of the text */
+    margin-top: 8px; /* Add margin for spacing between icon and text */
+  }
+
+  .skill i {
+    font-size: 32px; /* Adjust the font size of the icons */
+    color: red; /* Set the color of the icons */
+    animation: shake 0.5s infinite ease-in-out;
+  }
+
+  @keyframes shake {
+    0% { transform: rotate(0); }
+    25% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0); }
+  }
+
+  
 
 </style>
