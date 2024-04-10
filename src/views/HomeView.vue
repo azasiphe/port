@@ -1,38 +1,42 @@
 <template>
-  
-	<div class="hero-section">	
-		<div class="about-text hover-target"style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">about</div>
-		<div class="contact-text hover-target"style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">contact</div>
-		<div class="section-center">
-			<div class="container-fluid">
-				<div class="row justify-content-center">
-					<div class="col-12 text-center">
-						<h1 style="text-shadow: red 3PX 5PX 14PX;">Azasiphe<br>Ndoro.</h1>
-            
-					</div>
-					<div class="col-12 text-center mb-3">
-						<h2 style="font-size: 35px; color: antiquewhite; text-shadow: red 3PX 5PX 14PX;"> A SOFTWARE DEVELOPER</h2>
-					
-          </div>
+    <div class="hero-section">	
+    <div class="about-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">about</div>
+    <div class="contact-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">contact</div>
+    <div class="section-center">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12 text-center">
           
-					<div class="col-12 text-center">
-						<p>
-							<span class="travel hover-target" style="font-size: 25px; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;" >Education</span>  
-							<span class="nature hover-target"style="font-size: 25px; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">My work</span>
+<div class="container azasiphe-ndoro">
+  <p aria-label="Geist Sans" class="custom-text">
+    <span aria-hidden="true">A</span><span aria-hidden="true">z</span><span aria-hidden="true">a</span><span aria-hidden="true">s</span><span aria-hidden="true">i</span><span aria-hidden="true">p</span><span aria-hidden="true">h</span><span aria-hidden="true">e</span>
+    <span aria-hidden="true"> </span>
+    <span aria-hidden="true">N</span><span aria-hidden="true">d</span><span aria-hidden="true">o</span><span aria-hidden="true">r</span><span aria-hidden="true">o</span>
+  </p>
+</div>
+
+          </div>
+          <div class="col-12 text-center mb-3">
+            <h2 style="font-size: 35px; color: antiquewhite; text-shadow: red 3PX 5PX 14PX;">A SOFTWARE DEVELOPER</h2>
+          </div>
+          <div class="col-12 text-center">
+            <p>
+              <span class="travel hover-target" style="font-size: 25px; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">Education</span>  
+              <span class="nature hover-target" style="font-size: 25px; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">My work</span>
               <span class="wildlife hover-target" style="font-size: 25px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">Reviews</span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>	
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
   <div class="about-section  ">	
     <div class="about-close hover-target"></div>
     <div class="both">
   <div class="row justify-content-center align-items-center mt-3">
     <div class="col-md-3 profile">
       <h2 class="trade-winds-regular" style="font-size: 20px">My Profile</h2>
-      <img class="profilepic" src="https://ca.slack-edge.com/T02LW4RMXJQ-U05UP1YTAQY-a27bb9cfae7f-512" alt="Azasiphe Ndoro" />
+      <img class="profilepic" src="https://i.postimg.cc/PJcmfvd4/1000305969.jpg" alt="Azasiphe Ndoro" />
       <ul class="main-info-list" style="color: white; margin-right: 17%; 
   font-style: italic;
   text-shadow: red 4px 3px 9px;">
@@ -89,7 +93,6 @@
                         <input type="text" name="name" placeholder=" your name">
                         <input type="email" name="email" placeholder="your email">
                         <input type="tel" name="phone" placeholder="your phone">
-                        <input type="url" name="website" placeholder="your website">
                         <input type="text" name="subject" placeholder="subject">
                         <textarea placeholder="your message"></textarea>
                         <button><div>send
@@ -245,7 +248,7 @@
 </div>
 
 <div class="wildlife-section">    
-    <div class="nature-close hover-target"></div>
+    <div class="wildlife-close hover-target"></div>
     <div class="test">
         <h1 class="trade-winds-regular">REVIEWS</h1>
         <div id="carouselTestimonials" class="carousel slide">
@@ -354,19 +357,7 @@
                 </div>
             </div>
         </div>
-        <div class="card project-card">
-            <div class="card-content" style="background-color: black;">
-                <img src="https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png" class="pro-image" />
-                <p class="project-name">Ecommerce</p>
-                <div class="project-details">
-                    <p class="project-name">Ecommerce</p>
-                    <div class="button-container">
-                        <a href="https://node-project-1feb7.web.app/" target="_blank" class="live-button">Live</a>
-                        <a href="https://github.com/gcusaaa/createApplication" target="_blank" class="code-button">Code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
         <div class="card project-card">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/Ry5zzCF/Screenshot-2024-01-11-131116.png" class="pro-image" />
@@ -395,8 +386,21 @@
         </div>
         <div class="card project-card">
             <div class="card-content" style="background-color: black;">
+                <img src="https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png" class="pro-image" />
+                <p class="project-name">Ecommerce</p>
+                <div class="project-details">
+                    <p class="project-name">Ecommerce</p>
+                    <div class="button-container">
+                        <a href="https://node-project-1feb7.web.app/" target="_blank" class="live-button">Live</a>
+                        <a href="https://github.com/gcusaaa/createApplication" target="_blank" class="code-button">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card project-card">
+            <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png" class="pro-image" />
-                <p class="project-name">Keyboardt</p>
+                <p class="project-name">Keyboard</p>
                 <div class="project-details">
                     <p class="project-name">Keyboard</p>
                     <div class="button-container">
@@ -439,6 +443,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     (function($) {
         "use strict";
+
+        $('.cv-button').on('click', function() {
+      window.open('https://i.ibb.co/0q7wNbX/Gray-and-Blush-Feminine-Resume.png', '_blank');
+    });
 
         //Page cursors
         document.getElementsByTagName("body")[0].addEventListener("mousemove", function(n) {
@@ -507,18 +515,36 @@ document.addEventListener("DOMContentLoaded", function() {
             $("body").removeClass("nature-on");
         });
 
-        
-        function downloadCV() {
-            window.open('https://i.ibb.co/0q7wNbX/Gray-and-Blush-Feminine-Resume.png', '_blank');
-        }
+       
 
-     
-        $('.download-cv-button').on('click', function() {
-            downloadCV();
-        });
+        // Manipulate spans animation delay
+        const spanElements = document.querySelectorAll('.azasiphe-ndoro span');
+    const numLetters = spanElements.length;
+    
+    spanElements.forEach((span, i) => {
+      const mappedIndex = i - (numLetters / 2);
+      span.style.animationDelay = (mappedIndex * 0.18) + 's';
+    });
+  
+    const projectCards = document.querySelectorAll(".project-card");
+  
+  // Function to animate project cards
+  function animateProjectCards() {
+    projectCards.forEach((card, index) => {
+      // Delay animation for each card
+      card.style.transitionDelay = `${index * 0.1}s`;
+      card.style.opacity = "1"; // Show the card
+    });
+  }
+  
+  // Call the function to animate project cards after a delay
+  setTimeout(() => {
+    animateProjectCards();
+  }, 500);
 
     })(jQuery);
 });
+
 </script>
 <style scoped>
 
@@ -574,6 +600,45 @@ a:hover {
 	width: 0;
 	z-index: 99999;
 }
+@font-face {
+  font-family: "Geist";
+  src: url("https://pham.codes/d/GeistVF.woff2") format("woff2");
+}
+
+
+.azasiphe-ndoro  p {
+  font-family: "Geist";
+  font-size: 428px;
+  margin-bottom: 30px;}
+
+
+.azasiphe-ndoro span {
+  display: inline-block; /* Ensure each span takes up only its content width */
+  animation: moveText 3s ease-in-out infinite;
+  font-family: "Geist";
+  font-size: 65px;
+  font-style: italic;
+color: white;
+text-shadow: 
+  3px 5px 14px red, 
+  4px 5px 13px blue,   
+  3px 5px 15px yellow;
+  animation: moveText 1.5s alternate cubic-bezier(0.37, 0, 0.63, 1);
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-fill-mode: both
+  
+}
+
+/* Keyframes for text movement animation */
+@keyframes moveText {
+  0%, 100% {
+    transform: translateY(-5px); /* Start and end position - no movement */
+  }
+  50% {
+    transform: translateY(-10px); /* Midpoint position - move text upward */
+  }
+}
 .cursor2,.cursor3{
 	height: 36px;
 	width: 36px;
@@ -627,6 +692,7 @@ a:hover {
 	line-height: 1;
 	font-weight: 900;
 }
+
 .hero-section .dancing{
 	letter-spacing: 1px;
 	color: #ffeba7;
@@ -825,7 +891,7 @@ text-shadow: red 5px 4px 8px;
 	left: 0;
 	width: 100%;
 	display: block;
-	overflow: hidden;
+	overflow-x: hidden;
 	height: 100vh;
 	background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');
   background-size: cover;
@@ -978,9 +1044,9 @@ background-color: red;
 }
 
 .card-inner {
- margin: 0 0 0 20%;
- width: 80%;
- height: 100%;
+ margin: 0 0 0 33%;
+ width: 50%;
+ height: 60%;
  transition: transform 0.7s;
  transform-style: preserve-3d;
 }
@@ -1014,8 +1080,8 @@ background-color: red;
 }   .skills-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr); 
-   gap: 10px;
-   margin: 0 0 0 12%; 
+   gap:10px;
+   margin: 0 0 0 16%; 
    position: relative;
    top: 10%;
    margin-top: 50px; 
@@ -1064,7 +1130,22 @@ background-color: red;
    opacity: 0; 
    transition: opacity 0.3s ease;
  }
+ @media (max-width: 768px) {
+  .skills-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns per row on smaller screens */
+    margin: 0 5%; /* Adjusted margin for smaller screens */
+  }
+  
+  .card-inner  {
+  margin: 0 0 0 33%;
+ width: 80%;
+ height: 60%;
+ transition: transform 0.7s;
+ transform-style: preserve-3d;
+}
 
+
+}
  .skill-card:hover .skill-name {
    opacity: 1; /* Show skill name on hover */
  }
@@ -1180,16 +1261,23 @@ body.nature-on .nature-section {
   border: 2px solid transparent;
   border-radius: 2px;
   margin: 20px;
-  padding: 130px;
+  padding: 10px; /* Adjusted padding for better layout */
   display: flex;
   flex-wrap: wrap;
   height: auto;
-  width: calc(33.33% - 40px);
+  width: calc(30.33% - 60px);
   position: relative;
   overflow: hidden;
   transition: border-color 0.5s;
   box-sizing: border-box;
   animation: border-color-animation 5s infinite;
+}
+.pro-image {
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+  border: 5px solid black;
+  transition: filter 0.5s;
 }
 
 @keyframes border-color-animation {
@@ -1203,20 +1291,14 @@ body.nature-on .nature-section {
   100% { border-color: green; }
 }
 
-.pro-image {
-  width: 50%;
-  height: auto;
-  border-radius: 5px;
-  border: 5px solid black;
-  transition: filter 0.5s;
-}
+
 
 .project-details {
   position: absolute;
-  top: 0;
+
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 114%;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -1235,7 +1317,7 @@ body.nature-on .nature-section {
 .project-name {
   font-style: italic;
   color: red;
-  font-size: 25px;
+  font-size: 10px;
   text-decoration: underline 2px solid black;
   margin-bottom: 10px;
 }
@@ -1265,6 +1347,54 @@ body.nature-on .nature-section {
     min-width: 100%;
     max-height: 720px;
    
+
+
+  }
+  @media only screen and (max-width: 575px) {
+    
+
+    
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: -135%;
+}
+
+.live-button,
+.code-button {
+  background-color: black;
+  color: red;
+  text-decoration: none;
+  padding: 5px 9px;
+  border-radius: 5px;
+  border: 3px solid red;
+  transition: background-color 0.3s ease;
+}
+
+.live-button:hover,
+.code-button:hover {
+  background-color: red;
+  color: black;
+}
+
+  .project-card {
+  background-color: black;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 10px; /* Adjusted padding for better layout */
+ 
+
+  height: auto;
+  width: calc(50.33% - 60px);
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.5s;
+  box-sizing: border-box;
+  animation: border-color-animation 5s infinite;
+}
 
 }
 .video img {
@@ -1502,6 +1632,8 @@ box-shadow:4px solid #1f2029;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: #e8e8e8;
+   text-shadow: #0b8ffe 4px 3px 10px;
   }
 
   .skill {
@@ -1511,7 +1643,7 @@ box-shadow:4px solid #1f2029;
 
   .skill span {
     display: inline-block;
-    font-size: 18px; /* Adjust the font size of the text */
+    font-size: 18px;
     margin-top: 8px; /* Add margin for spacing between icon and text */
   }
 
