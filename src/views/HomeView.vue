@@ -36,12 +36,13 @@
   <div class="row justify-content-center align-items-center mt-3">
     <div class="col-md-3 profile">
       <h2 class="trade-winds-regular" style="font-size: 20px">My Profile</h2>
-      <img class="profilepic" src="https://i.postimg.cc/PJcmfvd4/1000305969.jpg" alt="Azasiphe Ndoro" />
+      <img class="profilepic" src="https://i.postimg.cc/PJcmfvd4/1000305969.jpg" alt="Azasiphe Ndoro" style="width: auto;"/>
       <ul class="main-info-list" style="color: white; margin-right: 17%; 
   font-style: italic;
   text-shadow: red 4px 3px 9px;">
         <ol>Name:Azasiphe Ndoro</ol>
         <ol>Born:14 November 2004</ol>
+        <ol>Languages:IsiXhosa&English</ol>
         <button @click="downloadCV" class="cv-button " style="background-color: crimson; color: aliceblue; border-radius: 15px; border:2px solid black;" >visit my CV</button>
       </ul>
       <div class="paper-clip"></div>
@@ -256,11 +257,11 @@
                 <!-- Testimonial Cards -->
                 <div class="carousel-item active">
                     <div class="card">
-                        <div class="le">
+                        <div class="le" style="width: 40%;">
                             <img src="https://ca.slack-edge.com/T02LW4RMXJQ-U05TX4AGA5T-cb7a7f3eb166-512" class="card-img-top" alt="Testimonial Image" style="width: 20%; border-radius: 70%;" />
                             <div class="card-body">
-                                <h5 class="card-title">Asisipho Gcusa</h5>
-                                <p class="card-text">Azasiphe has been an excellent team member, contributing innovative ideas and problem-solving skills. Their dedication to every project is commendable.</p>
+                                <h2 class="trade-winds-regular" style="text-shadow: blue 4px 3px 14px;">Asisipho Gcusa</h2>
+                                <p class="trade-winds-regular" style="font-size: 22px;">Azasiphe has been an excellent team member, contributing innovative ideas and problem-solving skills. Their dedication to every project is commendable.</p>
                             </div>
                         </div>
                     </div>
@@ -269,11 +270,11 @@
                
                 <div class="carousel-item">
                     <div class="card">
-                        <div class="le">
+                        <div class="le" style="width: 40%;">
                             <img src="https://i.ibb.co/1b5Cgct/Whats-App-1kd.jpg" class="card-img-top" alt="Testimonial Image" style="width: 20%; border-radius: 50%;"/>
                             <div class="card-body">
-                                <h5 class="card-title">Sisipho Mafrika</h5>
-                                <p class="card-text">Azasiphe is a creative thinker who always brings a fresh perspective to the team. Their ability to tackle complex problems head-on is remarkable.</p>
+                                <h2 class="trade-winds-regular"  style="text-shadow: blue 4px 3px 14px;">Sisipho Mafrika</h2>
+                                <p class="trade-winds-regular" style="font-size: 22px;">Azasiphe is a creative thinker who always brings a fresh perspective to the team. Their ability to tackle complex problems head-on is remarkable.</p>
                             </div>
                         </div>
                     </div>
@@ -281,44 +282,44 @@
 
                 <div class="carousel-item">
                     <div class="card">
-                        <div class="le">
+                        <div class="le" style="width: 40%;">
                             <img src="https://i.ibb.co/ctdV52t/IMG-20240107-WA0005-065850-removebg-preview.png" class="card-img-top" alt="Testimonial Image" style="width: 20%; border-radius: 150%;"/>
                             <div class="card-body">
-                                <h5 class="card-title">Rethabile  Makaotsi </h5>
-                                <p class="card-text">Azasiphe's analytical skills and attention to detail make them an asset to any project. Their positive attitude and teamwork are truly appreciated.</p>
+                                <h2 class="trade-winds-regular"  style="text-shadow: blue 4px 3px 14px;">Rethabile  Makaotsi </h2>
+                                <p class="trade-winds-regular" style="font-size: 22px;">Azasiphe's analytical skills and attention to detail make them an asset to any project. Their positive attitude and teamwork are truly appreciated.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card">
-                        <div class="le">
+                        <div class="le" style="width: 40%;">
                             <img src="https://i.ibb.co/6vgpm53/DSC-0316.jpg" class="card-img-top" alt="Testimonial Image"style="width: 20%; border-radius: 150%;" />
                             <div class="card-body">
-                                <h5 class="card-title">Anathi Josefu</h5>
-                                <p class="card-text">Azasipheis a quick learner and adapts seamlessly to new technologies. Their dedication to continuous improvement and growth is inspiring.</p>
+                                <h2 class="trade-winds-regular"  style="text-shadow: blue 4px 3px 14px;">Anathi Josefu</h2>
+                                <p class="trade-winds-regular" style="font-size: 22px;">Azasipheis a quick learner and adapts seamlessly to new technologies. Their dedication to continuous improvement and growth is inspiring.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card">
-                        <div class="le">
+                        <div class="le" style="width: 40%;">
                             <img src="https://i.ibb.co/k8h5Y2Y/20231009-140910.jpg" class="card-img-top" alt="Testimonial Image" style="width: 20%; border-radius: 150%;" />
                             <div class="card-body">
-                                <h5 class="card-title">Shaheem Salie</h5>
-                                <p class="card-text">She is a talented developer with a keen eye for detail and commitment to delivering high-quality code and solutions is truly impressive.</p>
+                                <h2 class="trade-winds-regular"  style="text-shadow: blue 4px 3px 14px;">Shaheem Salie</h2>
+                                <p class="trade-winds-regular" style="font-size: 22px;">She is a talented developer with a keen eye for detail and commitment to delivering high-quality code and solutions is truly impressive.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="card">
-                        <div class="le">
+                        <div class="le " style="width: 40%;">
                             <img src="https://i.ibb.co/qghnrDB/IMG-20240325-WA0022.jpg" class="card-img-top" alt="Testimonial Image" style="width: 20%; border-radius: 150%;"/>
                             <div class="card-body">
-                                <h5 class="card-title">Sivelele Nkamane</h5>
-                                <p class="card-text">Azasiphe is a reliable team player who consistently delivers on time. Their strong communication skills and collaborative spirit contribute to a positive work environment.</p>
+                                <h2 class="trade-winds-regular"  style="text-shadow: blue 4px 3px 14px;">Sivelele Nkamane</h2>
+                                <p class="trade-winds-regular" style="font-size: 22px;">Azasiphe is a reliable team player who consistently delivers on time. Their strong communication skills and collaborative spirit contribute to a positive work environment.</p>
                             </div>
                         </div>
                     </div>
@@ -347,9 +348,9 @@
         <div class="card project-card">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/Jmp7f5w/to-do.png" class="pro-image" />
-                <p class="project-name">To Do list</p>
+                <p class="project-name" style="font-size: 20px; font-weight: bolder; ">To Do list</p>
                 <div class="project-details">
-                    <p class="project-name">To Do list</p>
+                    <p class="project-name" style="font-size: 20px; font-weight: bolder; ">To Do list</p>
                     <div class="button-container">
                         <a href="https://to-do-list-kumk1zdob-azasiphes-projects.vercel.app/" target="_blank" class="live-button">Live</a>
                         <a href="https://github.com/azasiphe/To-Do-List.git" target="_blank" class="code-button">Code</a>
@@ -361,9 +362,9 @@
         <div class="card project-card">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/Ry5zzCF/Screenshot-2024-01-11-131116.png" class="pro-image" />
-                <p class="project-name">Age to Days</p>
+                <p class="project-name"  style="font-size: 20px; font-weight: bolder; " >Age to Days</p>
                 <div class="project-details">
-                    <p class="project-name">Age to Days</p>
+                    <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Age to Days</p>
                     <div class="button-container">
                         <a href="https://days-calculator-gold.vercel.app/" target="_blank" class="live-button">Live</a>
                         <a href="https://github.com/azasiphe/days-calculator.git" target="_blank" class="code-button">Code</a>
@@ -374,9 +375,9 @@
         <div class="card project-card">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/BfwyhJP/Screenshot-2024-01-11-132806.png" class="pro-image" />
-                <p class="project-name">Triangle area Calculator</p>
+                <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Triangle area Calculator</p>
                 <div class="project-details">
-                    <p class="project-name">Triangle area Calculator</p>
+                    <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Triangle area Calculator</p>
                     <div class="button-container">
                         <a href="https://triangle-vert.vercel.app/" target="_blank" class="live-button">Live</a>
                         <a href="https://github.com/azasiphe/triangle.git" target="_blank" class="code-button">Code</a>
@@ -387,9 +388,9 @@
         <div class="card project-card">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png" class="pro-image" />
-                <p class="project-name">Ecommerce</p>
+                <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Ecommerce</p>
                 <div class="project-details">
-                    <p class="project-name">Ecommerce</p>
+                    <p class="project-name" style="font-size: 20px; font-weight: bolder; ">Ecommerce</p>
                     <div class="button-container">
                         <a href="https://node-project-1feb7.web.app/" target="_blank" class="live-button">Live</a>
                         <a href="https://github.com/gcusaaa/createApplication" target="_blank" class="code-button">Code</a>
@@ -400,9 +401,9 @@
         <div class="card project-card">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png" class="pro-image" />
-                <p class="project-name">Keyboard</p>
+                <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Keyboard</p>
                 <div class="project-details">
-                    <p class="project-name">Keyboard</p>
+                    <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Keyboard</p>
                     <div class="button-container">
                         <a href="keyboard2-5d0c7ftgg-azasiphes-projects.vercel.app" target="_blank" class="live-button">Live</a>
                         <a href="https://github.com/azasiphe/keyboard-android.git" target="_blank" class="code-button">Code</a>
@@ -413,9 +414,9 @@
         <div class="card project-card">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" class="pro-image" />
-                <p class="project-name">Turbo website</p>
+                <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Turbo website</p>
                 <div class="project-details">
-                    <p class="project-name">To Do list</p>
+                    <p class="project-name" style="font-size: 20px; font-weight: bolder; ">Turbo website</p>
                     <div class="button-container">
                         <a href="capstone-project-45314.firebaseapp.com" target="_blank" class="live-button">Live</a>
                         <a href="https://github.com/azasiphe/capstone-project.git" target="_blank" class="code-button">Code</a>
@@ -991,42 +992,32 @@ body.contact-on .contact-section {
 .carousel-control-next-icon {
 
 padding: 24px;
-background-color: red;
+background-color:blue;
 }
 .le {
-  border: 2px solid red;
+  border: 2px solid blue;
   width: 50%;
-  margin: 0 0 0 25%;
+  margin: 0 0 0 29%;
 }
 
 .le h5{
   text-decoration: underline 2px solid red;
 }
-@media (max-width: 768px) {
+@media (max-width: 360px -748px) {
   .carousel-inner {
     margin-top: 20px;
   }
 
  .card {
-    max-width: 60%;
+    max-width: 100%;
   }
 
  .card img {
-    width: 50%;
+    width: 80%;
   }
 }
-.card {
-  background-color: black;
-  color: white;
-  border-radius: 10px;
-  text-align: center;
-  max-width: 70%;
-  width: 60%;
-  margin: 0 auto;
-  height: 80vh; 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.h2 {
+font-size:lighter;
 }
 
 /* travel/edu */
@@ -1359,7 +1350,8 @@ body.nature-on .nature-section {
   display: flex;
   justify-content: space-between;
   width: 40%;
-  margin-left: -135%;
+  gap: 5px;
+  margin-left: -100%;
 }
 
 .live-button,
@@ -1510,7 +1502,7 @@ body.nature-on .nature-section {
 .video .overlay form button:hover div {
    /* transform: rotate(-422deg) scale(1.5, 1.5) translate(50%, 50px);*/
     transform: scale(2) translateX(200px);
-    transition: 1s ease-in-out;
+     transition: 1s ease-in-out;
     color: transparent;
 }
 /* ----------- start media query for video & contact ----*/
