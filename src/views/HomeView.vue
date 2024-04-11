@@ -36,7 +36,7 @@
   <div class="row justify-content-center align-items-center mt-3">
     <div class="col-md-3 profile">
       <h2 class="trade-winds-regular" style="font-size: 20px">My Profile</h2>
-      <img class="profilepic" src="https://i.postimg.cc/PJcmfvd4/1000305969.jpg" alt="Azasiphe Ndoro" style="width: auto;"/>
+      <img class="profilepic" src="https://i.postimg.cc/3rBY5xXy/1000305969.jpg" alt="Azasiphe Ndoro" style="width: auto;"/>
       <ul class="main-info-list" style="color: white; margin-right: 17%; 
   font-style: italic;
   text-shadow: red 4px 3px 9px;">
@@ -254,12 +254,7 @@
                                 <p class="skill-name">Node.JS</p>
                             </div>
                         </div>
-                        <div class="card skill-card">
-                            <div class="card-content">
-                                <img src="https://i.postimg.cc/wB82r89T/images-1.png" class="skill-image" />
-                                <p class="skill-name">MYSQL</p>
-                            </div>
-                        </div>
+ 
                         <!-- Repeat the above structure for each skill data item -->
                     </div>
                 </div>
@@ -1168,7 +1163,7 @@ font-size:lighter;
  transform: rotateY(180deg);
 }   .skills-container {
    display: grid;
-   grid-template-columns: repeat(3, 1fr); 
+   grid-template-columns: repeat(4, 1fr); 
    gap:10px;
    margin: 0 0 0 16%; 
    position: relative;
