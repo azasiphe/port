@@ -32,7 +32,7 @@
   </div>  
   <div class="about-section  ">	
     <div class="about-close hover-target"></div>
-    <div class="both trade-winds-regular">
+    <div class="both ">
   <div class="row justify-content-center align-items-center mt-3">
     <div class="col-md-3 profile">
       <h2 class="trade-winds-regular" style="font-size: 20px">My Profile</h2>
