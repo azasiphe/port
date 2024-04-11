@@ -1,13 +1,13 @@
 <template>
     <div class="hero-section">	
-    <div class="about-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;"> about <i class="fas fa-chevron-left"></i></div>
-    <div class="contact-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;"> contact <i class="fas fa-chevron-left"></i></div>
+    <div class="about-text hover-target trade-winds-regular" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;"> about <i class="fas fa-chevron-left"></i></div>
+    <div class="contact-text hover-target trade-winds-regular" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;"> contact <i class="fas fa-chevron-left"></i></div>
     <div class="section-center">
       <div class="container-fluid">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
           
-<div class="container azasiphe-ndoro">
+<div class="container azasiphe-ndoro trade-winds-regular">
   <p aria-label="Geist Sans" class="custom-text">
     <span aria-hidden="true">A</span><span aria-hidden="true">z</span><span aria-hidden="true">a</span><span aria-hidden="true">s</span><span aria-hidden="true">i</span><span aria-hidden="true">p</span><span aria-hidden="true">h</span><span aria-hidden="true">e</span>
     <span aria-hidden="true"> </span>
@@ -17,13 +17,13 @@
 
           </div>
           <div class="col-12 text-center mb-3">
-            <h2 class="h2"style="font-size: 29px; color: antiquewhite; font-weight:bolder; font-style:italic; text-shadow: red 3PX 5PX 14PX;" >A SOFTWARE DEVELOPER</h2>
+            <h2 class="trade-winds-regular"style="font-size: 29px; color: antiquewhite; font-weight:bolder; font-style:italic; text-shadow: red 3PX 5PX 14PX;" >A SOFTWARE DEVELOPER</h2>
           </div>
           <div class="col-12 text-center">
             <p>
-              <span class="travel hover-target" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">Education </span>  
-              <span class="nature hover-target" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">My work</span>
-              <span class="wildlife hover-target" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">Reviews</span>
+              <span class="travel hover-target trade-winds-regular" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">Education </span>  
+              <span class="nature hover-target trade-winds-regular" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">My work</span>
+              <span class="wildlife hover-target trade-winds-regular" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">Reviews</span>
             </p>
           </div>
         </div>
@@ -32,7 +32,7 @@
   </div>  
   <div class="about-section  ">	
     <div class="about-close hover-target"></div>
-    <div class="both">
+    <div class="both trade-winds-regular">
   <div class="row justify-content-center align-items-center mt-3">
     <div class="col-md-3 profile">
       <h2 class="trade-winds-regular" style="font-size: 20px">My Profile</h2>
@@ -48,7 +48,7 @@
       <div class="paper-clip"></div>
     </div>
     <div class="col-md-8">
-      <div class="background">
+      <div class="background trade-winds-regular">
         <p class="trade-winds-regular"><strong>Who am I?</strong></p>
         <div class="desc">
           <p>Hi there! Welcome to my portfolio, where I'm excited to share the culmination of my work, creativity, and passion. This space reflects who I am, my values, and the endless potential I believe we all possess. Join me on this journey of exploration and discovery.</p>
@@ -124,8 +124,8 @@
         <div>
             <div class="alli">
                 <h2 class="trade-winds-regular">Education</h2>
-                <div class="card-container">
-                    <div class="card">
+                <div class="card-container trade-winds-regular">
+                    <div class="card trade-winds-regular">
                         <div class="card-inner">
                             <div class="card-front">
                                 <div class="card-icon">🎓</div>
@@ -145,10 +145,10 @@
                     </div>
                     
                   
-                    <div class="card-container">
-                    <div class="card">
-                        <div class="card-inner">
-                            <div class="card-front">
+                    <div class="card-container trade-winds-regular">
+                    <div class="card trade-winds-regular">
+                        <div class="card-inner trade-winds-regular">
+                            <div class="card-front trade-winds-regular">
                                 <div class="card-icon">🎓</div>
                                 <div class="card-content1">
                                     <p>Code Telligence</p>
@@ -190,7 +190,7 @@
               
                 <h2 class="trade-winds-regular mt-2">Experience</h2>
              
-                    <div class="card-1 " >
+                    <div class="card-1 trade-winds-regular " >
                        
                             <div class="card-front" style="background-color: black; margin: 0 0 0 19%;">
                                 <div class="card-content1 " style="background-color: black; margin: 0 0 0 8%;">
@@ -203,7 +203,7 @@
                            
                           
                     <h2 class="trade-winds-regular ">Skills</h2>
-                    <div class="skills-container ">
+                    <div class="skills-container trade-winds-regular">
                         <!-- Skill Cards -->
                         <div class="card skill-card">
                             <div class="card-content">
@@ -360,7 +360,7 @@
 <div class="projects">
     <div class="project-container">
         <!-- Project Cards -->
-        <div class="card project-card">
+        <div class="card project-card trade-winds-regular">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/Jmp7f5w/to-do.png" class="pro-image" />
                 <p class="project-name" style="font-size: 20px; font-weight: bolder; ">To Do list</p>
@@ -374,7 +374,7 @@
             </div>
         </div>
        
-        <div class="card project-card">
+        <div class="card project-card trade-winds-regular">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/Ry5zzCF/Screenshot-2024-01-11-131116.png" class="pro-image" />
                 <p class="project-name"  style="font-size: 20px; font-weight: bolder; " >Age to Days</p>
@@ -387,7 +387,7 @@
                 </div>
             </div>
         </div>
-        <div class="card project-card">
+        <div class="card project-card trade-winds-regular">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/BfwyhJP/Screenshot-2024-01-11-132806.png" class="pro-image" />
                 <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Triangle area Calculator</p>
@@ -400,7 +400,7 @@
                 </div>
             </div>
         </div>
-        <div class="card project-card">
+        <div class="card project-card trade-winds-regular">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png" class="pro-image" />
                 <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Ecommerce</p>
@@ -413,7 +413,7 @@
                 </div>
             </div>
         </div>
-        <div class="card project-card">
+        <div class="card project-card trade-winds-regular">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png" class="pro-image" />
                 <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Keyboard</p>
@@ -426,7 +426,7 @@
                 </div>
             </div>
         </div>
-        <div class="card project-card">
+        <div class="card project-card trade-winds-regular">
             <div class="card-content" style="background-color: black;">
                 <img src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" class="pro-image" />
                 <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Turbo website</p>
@@ -565,7 +565,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <style scoped>
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
 body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
@@ -908,6 +908,7 @@ body.about-on .about-section {
 	z-index: 1;
 }
 .trade-winds-regular {
+    font-family: 'Trade Winds', cursive;
   font-family: "Trade Winds", system-ui;
   font-weight: 600;
   text-align: center;
