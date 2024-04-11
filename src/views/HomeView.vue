@@ -242,7 +242,24 @@
                                 <p class="skill-name">Python</p>
                             </div>
                         </div>
-                        
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/bJRmbCcY/download-1.png" class="skill-image" />
+                                <p class="skill-name">JavaScript</p>
+                            </div>
+                        </div>
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/1tYNLwDc/download-2.png" class="skill-image"  style="width:30%; height:50%;"/>
+                                <p class="skill-name">Node.JS</p>
+                            </div>
+                        </div>
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/wB82r89T/images-1.png" class="skill-image" />
+                                <p class="skill-name">MYSQL</p>
+                            </div>
+                        </div>
                         <!-- Repeat the above structure for each skill data item -->
                     </div>
                 </div>
