@@ -1,6 +1,6 @@
 <template>
     <div class="hero-section">	
-    <div class="about-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">about</div>
+    <div class="about-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;"> about</div>
     <div class="contact-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">contact</div>
     <div class="section-center">
       <div class="container-fluid">
@@ -17,13 +17,13 @@
 
           </div>
           <div class="col-12 text-center mb-3">
-            <h2 style="font-size: 35px; color: antiquewhite; text-shadow: red 3PX 5PX 14PX;">A SOFTWARE DEVELOPER</h2>
+            <h2 class="h2"style="font-size: 29px; color: antiquewhite; font-weight:bolder; font-style:italic; text-shadow: red 3PX 5PX 14PX;" >A SOFTWARE DEVELOPER</h2>
           </div>
           <div class="col-12 text-center">
             <p>
-              <span class="travel hover-target" style="font-size: 25px; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">Education</span>  
-              <span class="nature hover-target" style="font-size: 25px; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">My work</span>
-              <span class="wildlife hover-target" style="font-size: 25px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">Reviews</span>
+              <span class="travel hover-target" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">Education </span>  
+              <span class="nature hover-target" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">My work</span>
+              <span class="wildlife hover-target" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">Reviews</span>
             </p>
           </div>
         </div>
@@ -86,9 +86,12 @@
                     <div class="social">
                     <i class="fas fa-phone-alt contact-icon"></i>
                         <span class="contact-number">083 398 3284</span>
-<i class="fas fa-map-marker-alt ml-3"></i>
+                   
+<i class="fas fa-map-marker-alt "></i>
 <span class="location">Khayelitsha/Harare</span>
-  
+                        
+<i class="fas fa-envelope email-icon"></i>
+<span class="location">azasiphendoro@gmail.com</span>
                     </div>
                     <form>
                         <input type="text" name="name" placeholder=" your name">
@@ -187,7 +190,7 @@
               
                 <h2 class="trade-winds-regular mt-2">Experience</h2>
              
-                    <div class="card " >
+                    <div class="card-1 " >
                        
                             <div class="card-front" style="background-color: black; margin: 0 0 0 19%;">
                                 <div class="card-content1 " style="background-color: black; margin: 0 0 0 8%;">
@@ -630,7 +633,18 @@ text-shadow:
   animation-fill-mode: both
   
 }
+.h2 {
+  font-size: 35px;
+  color: antiquewhite;
+  text-shadow: red 3px 5px 14px;
+}
 
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .h2 {
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+}
 /* Keyframes for text movement animation */
 @keyframes moveText {
   0%, 100% {
@@ -638,6 +652,25 @@ text-shadow:
   }
   50% {
     transform: translateY(-10px); /* Midpoint position - move text upward */
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Apply styles when the screen width is 768px or less */
+  .azasiphe-ndoro p {
+    font-size: 350px; /* Adjust the font size for responsiveness */
+    margin-bottom: 10px; /* Adjust the margin for spacing */
+  }
+
+  .azasiphe-ndoro span {
+    
+    font-size: 29px; /* Adjust the font size for responsiveness */
+    text-shadow: 
+      2px 4px 10px red, 
+      3px 4px 9px blue,   
+      2px 4px 10px yellow;
+   
+    animation: moveText 1.5s alternate cubic-bezier(0.37, 0, 0.63, 1);
+    /* Adjust animation properties if needed */
   }
 }
 .cursor2,.cursor3{
@@ -717,11 +750,40 @@ text-shadow:
 		font-size: 18px;
 	}
 }
+
+.cursor2,.cursor3{
+	height: 36px;
+	width: 36px;
+	z-index:99998;
+	-webkit-transition:all 0.3s ease-out;
+	transition:all 0.3s ease-out
+}
+.cursor2.hover,
+.cursor3.hover{
+	-webkit-transform:scale(2) translateX(-25%) translateY(-25%);
+	transform:scale(2) translateX(-25%) translateY(-25%);
+	border:none
+}
+.cursor2{
+	border: 2px solid #fff;
+}
+.cursor2.hover{
+	background: rgba(255,255,255,1);
+	border-color: transparent;
+}
+
+@media screen and (max-width: 1200px){
+	.cursor,.cursor2,.cursor3{
+		display: none
+	}
+}
+
 .hero-section p{
-	font-size: 20px;
+	font-size: 5px;
 	line-height: 1;
-	font-weight: 700;
+	font-weight: 800;
 	color: #ffeba7;
+    margin-top:35px;
 }
 .hero-section p span{
 	margin-left: 15px;
@@ -892,7 +954,7 @@ text-shadow: red 5px 4px 8px;
 	left: 0;
 	width: 100%;
 	display: block;
-	overflow-x: hidden;
+    overflow-x:hidden;
 	height: 100vh;
 	background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');
   background-size: cover;
@@ -929,15 +991,24 @@ body.contact-on .contact-section {
 
 
 @media screen and (max-width: 580px){
+    .contact-section {
+   
+	top: 0%;
+	left: 0;
+	width: 100%;
+
+	height: 90vh;}
 	.contact-section a{
-		font-size: 17px;
+		font-size: 20px;
 	}
 	.contact-section .social a{
+        
 		margin-left: 3px;
 		margin-right: 3px;
 		font-size: 13px;
 		letter-spacing: 0;
 	}
+
 }
 
 .travel-section,
@@ -986,7 +1057,7 @@ body.contact-on .contact-section {
 }
 .carousel-inner {
 
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -1002,20 +1073,30 @@ background-color:blue;
 
 .le h5{
   text-decoration: underline 2px solid red;
-}
-@media (max-width: 360px -748px) {
+}@media (max-width: 748px) {
+  /* Styles for screens up to 748px wide */
+
   .carousel-inner {
-    margin-top: 20px;
+    width: 183%;
+    margin-left:46px;
+    margin-top: 50px;
   }
 
- .card {
-    max-width: 100%;
+  .le {
+    width: 155%; /* Full width for smaller screens */
+    margin: 0; /* Reset margin */
   }
 
- .card img {
-    width: 80%;
+  .card img {
+    width: 100%; /* Full width for smaller screens */
+    margin: 0 auto; /* Center the image */
+  }
+
+  .h2 {
+    font-size: 20px; /* Adjust font size for smaller screens */
   }
 }
+
 .h2 {
 font-size:lighter;
 }
@@ -1028,7 +1109,7 @@ font-size:lighter;
 }
 .card {
  display: inline;
- width: 80px; 
+ width: 90px; 
 
  height: 80px; 
  perspective: 1000px;
@@ -1124,13 +1205,19 @@ font-size:lighter;
  @media (max-width: 768px) {
   .skills-container {
     grid-template-columns: repeat(2, 1fr); /* Two columns per row on smaller screens */
-    margin: 0 5%; /* Adjusted margin for smaller screens */
+    margin-left: -32px; /* Adjusted margin for smaller screens */
+  }
+  .card-1{
+    margin-left: -128px; 
+    width: 195%;
+ height: 60%;
   }
   
   .card-inner  {
-  margin: 0 0 0 33%;
- width: 80%;
+  margin: 0 0 0 7%;
+ width: 100%;
  height: 60%;
+ color:black;
  transition: transform 0.7s;
  transform-style: preserve-3d;
 }
@@ -1508,16 +1595,25 @@ body.nature-on .nature-section {
 /* ----------- start media query for video & contact ----*/
 @media only screen and (max-width: 575px) {
     .video .overlay {
-        padding-top: 40px;
+        padding-top: 33px;
     }
-    .video .overlay .social {
-        margin-top: 30px;        
-        
+    .video .overlay .social span{
+           
+        margin:-28px;
+        padding:30px;
+        font-size: 10px;
+    }
+    .video .overlay .social  {
+        margin-top: 10px;        
+        margin:15px;
+        padding:10px;
+        font-size: 10px;
     }
     .video .overlay .social i {
         width: 40px;
+      margin-right:0px;
         height: 40px;
-        font-size: 20px;
+        font-size: 10px;
         line-height: 40px;
     }
     .video .overlay form {
