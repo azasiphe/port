@@ -1,7 +1,7 @@
 <template>
     <div class="hero-section">	
-    <div class="about-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;"> about</div>
-    <div class="contact-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">contact</div>
+    <div class="about-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;"> about <i class="fas fa-chevron-left"></i></div>
+    <div class="contact-text hover-target" style="font-size: 40px; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;"> contact <i class="fas fa-chevron-left"></i></div>
     <div class="section-center">
       <div class="container-fluid">
         <div class="row justify-content-center">
