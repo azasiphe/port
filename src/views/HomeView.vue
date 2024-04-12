@@ -21,7 +21,7 @@
           </div>
           <div class="col-12 text-center">
             <p>
-              <span class="travel hover-target trade-winds-regular" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">Education </span>  
+              <span class="travel hover-target trade-winds-regular" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">Education&Experience </span>  
               <span class="nature hover-target trade-winds-regular" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: blue 3PX 5PX 14PX;">My work</span>
               <span class="wildlife hover-target trade-winds-regular" style="font-size: 30px; font-style:italic; color: antiquewhite; text-shadow: BLUE 3PX 5PX 14PX;">Reviews</span>
             </p>
@@ -60,7 +60,7 @@
     </div>
     <div class="substrate">
   <h3 class="trade-winds-regular">My Hobbies</h3>
-  <ul class="skills">
+  <ul class="skills trade-winds-regular">
     <li class="skill"><span><i class="fas fa-book" style="color: red;"></i> Reading Books</span></li>
     <li class="skill"><span><i class="fas fa-laptop-code" style="color: red;"></i> Coding</span></li>
     <li class="skill"><span><i class="fas fa-paint-brush" style="color: red;"></i> Makeup</span></li>
@@ -76,11 +76,11 @@
     
 </div>
 
-	<div class="contact-section">	
+	<div class="contact-section" style="background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');">	
 		<div class="contact-close hover-target"></div>
     
-<div class="video">
-            <div class="overlay">
+<div class="video" style="background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');">
+            <div class="overlay ">
                 <div class="container">
                     <h2>contact me</h2>
                     <div class="social">
@@ -135,7 +135,7 @@
                                 </div>
                             </div>
                             <div class="card-back">
-                                <div class="card-content2">
+                                <div class="card-content2 " style="color:black;">
                                     <p>Kwamfundo High School</p>
                                     <p>It was a great journey at school. Subjects included physics, maths, life science, and geography, which kept me longing for more challenges.</p>
                                 </div>
@@ -150,7 +150,7 @@
                         <div class="card-inner trade-winds-regular">
                             <div class="card-front trade-winds-regular">
                                 <div class="card-icon">🎓</div>
-                                <div class="card-content1">
+                                <div class="card-content1" style="color:black;">
                                     <p>Code Telligence</p>
                                     <p>Jan 2023 - Jun 2023</p>
                                 </div>
@@ -969,6 +969,7 @@ text-shadow: red 5px 4px 8px;
 	display: block;
     overflow-x:hidden;
 	height: 100vh;
+    background-color:black;
 	background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');
   background-size: cover;
 	transform: translateX(100%);
@@ -1218,16 +1219,16 @@ font-size:lighter;
  @media (max-width: 768px) {
   .skills-container {
     grid-template-columns: repeat(2, 1fr); /* Two columns per row on smaller screens */
-    margin-left: -32px; /* Adjusted margin for smaller screens */
+    margin-left: -28px; /* Adjusted margin for smaller screens */
   }
   .card-1{
-    margin-left: -128px; 
-    width: 195%;
+    margin-left: -115px; 
+    width: 180%;
  height: 60%;
   }
   
   .card-inner  {
-  margin: 0 0 0 7%;
+  margin: 0 0 0 4%;
  width: 100%;
  height: 60%;
  color:black;
@@ -1449,9 +1450,9 @@ body.nature-on .nature-section {
 .button-container {
   display: flex;
   justify-content: space-between;
-  width: 40%;
+  width: 10px;
   gap: 5px;
-  margin-left: -100%;
+  margin-left: -500%;
 }
 
 .live-button,
