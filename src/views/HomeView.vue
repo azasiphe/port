@@ -135,7 +135,7 @@
                                 </div>
                             </div>
                             <div class="card-back">
-                                <div class="card-content2 " style="color:black;">
+                                <div class="card-content2 " style="color:white;">
                                     <p>Kwamfundo High School</p>
                                     <p>It was a great journey at school. Subjects included physics, maths, life science, and geography, which kept me longing for more challenges.</p>
                                 </div>
@@ -1442,34 +1442,40 @@ body.nature-on .nature-section {
 
 
   }
-  @media only screen and (max-width: 575px) {
-    
+  @media only screen and (max-width: 975px) {
+    .button-container {
+height:34%;
+  width: 20%;
+  gap:3px;
+  font-size:12%;
+  margin-left:-150%;
+  color: black;
+}
 
-    
 
-.button-container {
-  display: flex;
-  justify-content: space-between;
-  width: 10px;
-  gap: 5px;
-  margin-left: -500%;
+.project-name {
+  font-style: italic;
+  color: red;
+  font-size: 10px;
+ 
+  margin-bottom: 10px;
 }
 
 .live-button,
 .code-button {
-  background-color: black;
-  color: red;
+    background-color: red;
+  color: black;
   text-decoration: none;
-  padding: 5px 9px;
   border-radius: 5px;
   border: 3px solid red;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease; 
+  width: 30000%; 
 }
 
 .live-button:hover,
 .code-button:hover {
-  background-color: red;
-  color: black;
+  background-color: black;
+  color: red;
 }
 
   .project-card {
