@@ -17,7 +17,7 @@
 
           </div>
           <div class="col-12 text-center mb-3">
-            <h2 class="trade-winds-regular"style="font-size: 29px; color: antiquewhite; font-weight:bolder; font-style:italic; text-shadow: red 3PX 5PX 14PX;" >A SOFTWARE DEVELOPER</h2>
+            <h2 class="trade-winds-regular"style="font-size: 29px; color: antiquewhite; font-weight:bolder; font-style:italic; text-shadow: red 3PX 5PX 14PX;" >A WEB DEVELOPER</h2>
           </div>
           <div class="col-12 text-center">
             <p>
@@ -53,7 +53,7 @@
         <div class="desc">
           <p>Hi there! Welcome to my portfolio, where I'm excited to share the culmination of my work, creativity, and passion. This space reflects who I am, my values, and the endless potential I believe we all possess. Join me on this journey of exploration and discovery.</p>
                 <p>
-                I'm Azasiphe Ndoro, a software developer, illustrator, and enthusiast of design and structured coding. Like many, I started as a beginner, eager to absorb knowledge. I enjoy blogging about coding and sharing what I learn. My curiosity drives me to research and experiment with code and design, exploring the fascinating intersection between art and technology. This love for design stems from my appreciation of various art forms, from galleries to makeup and poetry. Let's connect and delve deeper into this dynamic world of creativity and innovation.
+                I'm Azasiphe Ndoro, a web developer, illustrator, and enthusiast of design and structured coding. Like many, I started as a beginner, eager to absorb knowledge. I enjoy blogging about coding and sharing what I learn. My curiosity drives me to research and experiment with code and design, exploring the fascinating intersection between art and technology. This love for design stems from my appreciation of various art forms, from galleries to makeup and poetry. Let's connect and delve deeper into this dynamic world of creativity and innovation.
                 </p>
         </div>
       </div>
@@ -129,7 +129,7 @@
                         <div class="card-inner">
                             <div class="card-front">
                                 <div class="card-icon">🎓</div>
-                                <div class="card-content1">
+                                <div class="card-content1" style="color:black;">
                                     <p>Kwamfundo High School</p>
                                     <p>2018 - 2022</p>
                                 </div>
@@ -137,7 +137,7 @@
                             <div class="card-back">
                                 <div class="card-content2 " style="color:white;">
                                     <p>Kwamfundo High School</p>
-                                    <p>It was a great journey at school. Subjects included physics, maths, life science, and geography, which kept me longing for more challenges.</p>
+                                    <p style="color:white;">It was a great journey at school. Subjects included physics, maths, life science, and geography, which kept me longing for more challenges.</p>
                                 </div>
                             </div>
                             
@@ -158,7 +158,7 @@
                             <div class="card-back">
                                 <div class="card-content2">
                                     <p>Code Telligence</p>
-                                    <p>It was a challanging journey i was doing lot of module in a short of period of time but these lot of things i've learnt in tht time  .</p>
+                                    <p>It was a challanging journey i was doing lot of module in a short of period of time but these lot of things i've learnt in that time.that kept me long for more in tech field .</p>
                                 </div>
                             </div>
                             
@@ -461,7 +461,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "use strict";
 
         $('.cv-button').on('click', function() {
-      window.open('https://i.ibb.co/0q7wNbX/Gray-and-Blush-Feminine-Resume.png', '_blank');
+      window.open('https://i.postimg.cc/RF2NPtmh/White-Red-Simple-Fashion-Designer-Resume.jpg', '_blank');
     });
 
         //Page cursors
@@ -1442,6 +1442,61 @@ body.nature-on .nature-section {
 
 
   }
+  /* bigger */
+  @media only screen and (max-width: 770px) {
+    .button-container {
+height:54%;
+  width: 80%;
+  gap:3px;
+  font-size:15%;
+  margin-right:-100%;
+  color: black;
+}
+
+
+.project-name {
+  font-style: italic;
+  color: red;
+  font-size: 10px;
+ 
+  margin-bottom: 10px;
+}
+
+.live-button,
+.code-button {
+    background-color: red;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 3px solid red;
+  transition: background-color 0.3s ease; 
+  width: 30000%; 
+}
+
+.live-button:hover,
+.code-button:hover {
+  background-color: black;
+  color: red;
+}
+
+  .project-card {
+  background-color: black;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 10px; /* Adjusted padding for better layout */
+ 
+
+  height: auto;
+  width: calc(50.33% - 60px);
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.5s;
+  box-sizing: border-box;
+  animation: border-color-animation 5s infinite;
+}
+
+}
   @media only screen and (max-width: 975px) {
     .button-container {
 height:34%;
