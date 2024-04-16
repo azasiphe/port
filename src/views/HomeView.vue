@@ -32,14 +32,14 @@
   </div>  
   <div class="about-section  ">	
     <div class="about-close hover-target"></div>
-    <div class="both ">
+    <div class="both trade-winds-regular" >
   <div class="row justify-content-center align-items-center mt-3">
     <div class="col-md-3 profile">
       <h2 class="trade-winds-regular" style="font-size: 20px">My Profile</h2>
       <img class="profilepic" src="https://i.postimg.cc/3rBY5xXy/1000305969.jpg" alt="Azasiphe Ndoro" style="width: auto;"/>
       <ul class="main-info-list" style="color: white; margin-right: 17%; 
-  font-style: italic;
-  text-shadow: red 4px 3px 9px;">
+
+  text-shadow: red 4px 3px 9px; font-size:16px;">
         <ol>Name:Azasiphe Ndoro</ol>
         <ol>Born:14 November 2004</ol>
         <ol>Languages:IsiXhosa&English</ol>
@@ -76,22 +76,22 @@
     
 </div>
 
-	<div class="contact-section" style="background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');">	
+	<div class="contact-section"  style="height:100vh; background-image: url('https://i.postimg.cc/BvGd6c15/stars-3750824-1280.png')">	
 		<div class="contact-close hover-target"></div>
     
-<div class="video" style="background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');">
+<div class="video" >
             <div class="overlay ">
-                <div class="container">
-                    <h2>contact me</h2>
+                <div class="container ">
+                    <h2 class="trade-winds-regular" style="font-size:25px; text-shadow:blue 4px 7px 14px;" >contact me</h2>
                     <div class="social">
                     <i class="fas fa-phone-alt contact-icon"></i>
-                        <span class="contact-number">083 398 3284</span>
+                        <span class="contact-number trade-winds-regular"style="font-size:16px; text-shadow:blue 4px 7px 14px;" >083 398 3284</span>
                    
 <i class="fas fa-map-marker-alt "></i>
-<span class="location">Khayelitsha/Harare</span>
+<span class="location trade-winds-regular" style="font-size:16px; text-shadow:blue 4px 7px 14px;">Khayelitsha/Harare</span>
                         
 <i class="fas fa-envelope email-icon"></i>
-<span class="location">azasiphendoro@gmail.com</span>
+<span class="location trade-winds-regular" style="font-size:16px; text-shadow:blue 4px 7px 14px;">azasiphendoro@gmail.com</span>
                     </div>
                     <form>
                         <input type="text" name="name" placeholder=" your name">
@@ -134,17 +134,24 @@
                                     <p>2018 - 2022</p>
                                 </div>
                             </div>
+                            <div class="info-arrow">
+                                <div class="arrow"></div>
+            <span>Hover over for more info</span>
+            
+        </div>
                             <div class="card-back">
-                                <div class="card-content2 " style="color:white;">
-                                    <p>Kwamfundo High School</p>
-                                    <p style="color:white;">It was a great journey at school. Subjects included physics, maths, life science, and geography, which kept me longing for more challenges.</p>
-                                </div>
+                            <div class="card-content2" style="color:white;">
+                                
+                                <p>Kwamfundo High School</p>
+                                <p style="color:white;">It was a great journey at school. Subjects included physics, maths, life science, and geography, which kept me longing for more challenges.</p>
                             </div>
-                            
                         </div>
                     </div>
+                            
+                       
+                    </div>
                     
-                  
+                
                     <div class="card-container trade-winds-regular">
                     <div class="card trade-winds-regular">
                         <div class="card-inner trade-winds-regular">
@@ -155,6 +162,11 @@
                                     <p>Jan 2023 - Jun 2023</p>
                                 </div>
                             </div>
+                            <div class="info-arrow">
+                                <div class="arrow"></div>
+            <span>Hover over for more info</span>
+            
+        </div>
                             <div class="card-back">
                                 <div class="card-content2">
                                     <p>Code Telligence</p>
@@ -166,7 +178,7 @@
                     </div>
                   </div>
                   
-                  
+               
                   <div class="card-container">
                     <div class="card">
                         <div class="card-inner">
@@ -177,6 +189,12 @@
                                     <p>Sep 2023 - march 2024</p>
                                 </div>
                             </div>
+                            
+                            <div class="info-arrow">
+                                <div class="arrow"></div>
+            <span>Hover over for more info</span>
+           
+        </div>
                             <div class="card-back">
                                 <div class="card-content2">
                                     <p>Life Choices</p>
@@ -184,32 +202,33 @@
                                 </div>
                             </div>
                             
+
                         </div>
                     </div>
                   </div>
               
-                <h2 class="trade-winds-regular mt-2">Experience</h2>
+                <h2 class="trade-winds-regular mt-2" style="margin-bottom:7%;">Experience</h2>
              
                     <div class="card-1 trade-winds-regular " >
                        
-                            <div class="card-front" style="background-color: black; margin: 0 0 0 19%;">
-                                <div class="card-content1 " style="background-color: black; margin: 0 0 0 8%;">
+                            <div class="card-front" style="background-color: black; margin: 0 0 0 19%; position:relative; margin-bottom:7%; ">
+                                <div class="card-content1 " style="background-color: black; margin: 0 0 0 8%; position:relative; ">
                                   <img src="https://i.ibb.co/xs1PS7L/lc-studio.jpg" style="width:30%; margin: 0 0 0 28%; " />
                                     
-                                    <p style="color:bisque; font-size: 25px; margin: 0 0 0 1%; ">I'm an intern at LC Studio,  I am assisting in clients projects with  dynamic content rendering and interactive user experiences. .</p>
+                                    <p style="color:bisque; font-size: 25px; margin: 0 0 0 1%; " >I'm an intern at LC Studio,  I am assisting in clients projects with  dynamic content rendering and interactive user experiences. .</p>
                                 </div>
                             </div>
                             </div>
                            
                           
-                    <h2 class="trade-winds-regular ">Skills</h2>
-                    <div class="skills-container trade-winds-regular">
+                    <h2 class="trade-winds-regular " style="position:relative; bottom:-30%; top:-50%;">Skills</h2>
+                    <div class="skills-container trade-winds-regular" style="position:relative; margin-top:5%;" >
                         <!-- Skill Cards -->
                         <div class="card skill-card">
                             <div class="card-content">
                                 <img src="https://i.postimg.cc/C5Vmp3w3/download-17.png" class="skill-image" />
                                 <p class="skill-name">HTML</p>
-                            </div>
+                            </div>     
                         </div>
                         <div class="card skill-card">
                             <div class="card-content">
@@ -353,97 +372,181 @@
         </div>
     </div>
 </div>
-	<div class="nature-section">	
+<div class="nature-section">	
 		<div class="nature-close hover-target"></div>
-		<h1 class="trade-winds-regular">MY WORK</h1>
+		<div class="surface">
 
-<div class="projects">
-    <div class="project-container">
-        <!-- Project Cards -->
-        <div class="card project-card trade-winds-regular">
-            <div class="card-content" style="background-color: black;">
-                <img src="https://i.ibb.co/Jmp7f5w/to-do.png" class="pro-image" />
-                <p class="project-name" style="font-size: 20px; font-weight: bolder; ">To Do list</p>
-                <div class="project-details">
-                    <p class="project-name" style="font-size: 20px; font-weight: bolder; ">To Do list</p>
-                    <div class="button-container">
-                        <a href="https://to-do-list-kumk1zdob-azasiphes-projects.vercel.app/" target="_blank" class="live-button">Live</a>
-                        <a href="https://github.com/azasiphe/To-Do-List.git" target="_blank" class="code-button">Code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-        <div class="card project-card trade-winds-regular">
-            <div class="card-content" style="background-color: black;">
-                <img src="https://i.ibb.co/Ry5zzCF/Screenshot-2024-01-11-131116.png" class="pro-image" />
-                <p class="project-name"  style="font-size: 20px; font-weight: bolder; " >Age to Days</p>
-                <div class="project-details">
-                    <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Age to Days</p>
-                    <div class="button-container">
-                        <a href="https://days-calculator-gold.vercel.app/" target="_blank" class="live-button">Live</a>
-                        <a href="https://github.com/azasiphe/days-calculator.git" target="_blank" class="code-button">Code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card project-card trade-winds-regular">
-            <div class="card-content" style="background-color: black;">
-                <img src="https://i.ibb.co/BfwyhJP/Screenshot-2024-01-11-132806.png" class="pro-image" />
-                <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Triangle area Calculator</p>
-                <div class="project-details">
-                    <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Triangle area Calculator</p>
-                    <div class="button-container">
-                        <a href="https://triangle-vert.vercel.app/" target="_blank" class="live-button">Live</a>
-                        <a href="https://github.com/azasiphe/triangle.git" target="_blank" class="code-button">Code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card project-card trade-winds-regular">
-            <div class="card-content" style="background-color: black;">
-                <img src="https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png" class="pro-image" />
-                <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Ecommerce</p>
-                <div class="project-details">
-                    <p class="project-name" style="font-size: 20px; font-weight: bolder; ">Ecommerce</p>
-                    <div class="button-container">
-                        <a href="https://node-project-1feb7.web.app/" target="_blank" class="live-button">Live</a>
-                        <a href="https://github.com/gcusaaa/createApplication" target="_blank" class="code-button">Code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card project-card trade-winds-regular">
-            <div class="card-content" style="background-color: black;">
-                <img src="https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png" class="pro-image" />
-                <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Keyboard</p>
-                <div class="project-details">
-                    <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Keyboard</p>
-                    <div class="button-container">
-                        <a href="keyboard2-5d0c7ftgg-azasiphes-projects.vercel.app" target="_blank" class="live-button">Live</a>
-                        <a href="https://github.com/azasiphe/keyboard-android.git" target="_blank" class="code-button">Code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="card project-card trade-winds-regular">
-            <div class="card-content" style="background-color: black;">
-                <img src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" class="pro-image" />
-                <p class="project-name"  style="font-size: 20px; font-weight: bolder; ">Turbo website</p>
-                <div class="project-details">
-                    <p class="project-name" style="font-size: 20px; font-weight: bolder; ">Turbo website</p>
-                    <div class="button-container">
-                        <a href="capstone-project-45314.firebaseapp.com" target="_blank" class="live-button">Live</a>
-                        <a href="https://github.com/azasiphe/capstone-project.git" target="_blank" class="code-button">Code</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Repeat the above structure for each project -->
-    </div>
+<div class="card-p">
+
+
+  <div class="top"></div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+  <div class="left"></div>
+  <div class="back"></div>
+
+  <div class="menu">
+
+    <label for="bcard-1-img">view more></label>
+    <p>To do list</p>
+  </div>
+
+</div>
+
+<div class="card-p">
+
+  
+
+  <div class="top"></div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+  <div class="left"></div>
+  <div class="back"></div>
+
+  <div class="menu">
+
+    <label for="bcard-2-img">view more></label>
+    <p>Age count</p>
+  </div>
+
+</div>
+
+<div class="card-p">
+
+
+  <div class="top"></div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+  <div class="left"></div>
+  <div class="back"></div>
+
+  <div class="menu">
+
+    <label for="bcard-3-img">view more></label>
+    <p>Area calculator</p>
+  </div>
+
+</div>
+
+<div class="card-p">
+
+ 
+
+  <div class="top"></div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+  <div class="left"></div>
+  <div class="back"></div>
+
+  <div class="menu">
+
+    <label for="bcard-4-img">view more ></label>
+    <p>Ecommerce</p>
+  </div>
+
+</div>
+
+<div class="card-p">
+
+
+  <div class="top"></div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+  <div class="left"></div>
+  <div class="back"></div>
+
+  <div class="menu">
+
+    <label for="bcard-5-img">view more></label>
+    <p>Keyboard</p>
+  </div>
+
+</div>
+
+<div class="card-p">
+
+  <defs>
+      <linearGradient id="paint500_linear_1501_1259" x1="5.57575" y1="7.30638" x2="30.9394" y2="7.30639" gradientUnits="userSpaceOnUse">
+        <stop class="ccustom" stop-color="#64C2DB"></stop>
+        <stop offset="0.307292" class="ccompli1" stop-color="#7476ED"></stop>
+        <stop offset="0.604167" class="ccompli1" stop-color="#C994DF"></stop>
+        <stop offset="1" class="ccompli2" stop-color="#E56F8C"></stop>
+      </linearGradient>
+    </defs>
+  
+
+  <div class="top"></div>
+  <div class="right"></div>
+  <div class="bottom"></div>
+  <div class="left"></div>
+  <div class="back"></div>
+
+  <div class="menu">
+
+    <label for="bcard-6-img">view more></label>
+<p>TURBO</p>
+  </div>
+
+</div>
+
+<div class="background"></div>
+
+</div>
+
+<input type="radio" id="bcard-1-img" name="bcard-lbox" value="1">
+<input type="radio" id="bcard-2-img" name="bcard-lbox" value="2">
+<input type="radio" id="bcard-3-img" name="bcard-lbox" value="3">
+<input type="radio" id="bcard-4-img" name="bcard-lbox" value="4">
+<input type="radio" id="bcard-5-img" name="bcard-lbox" value="5">
+<input type="radio" id="bcard-6-img" name="bcard-lbox" value="6">
+
+<input type="radio" id="close-lbox" name="bcard-lbox" value="close">
+
+<label id="close-button" for="close-lbox">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z" />
+  <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z" />
+</svg>
+</label>
+<img id="bcard-1-ent" src="https://i.ibb.co/Jmp7f5w/to-do.png" alt="business card 1 image" width="1280" height="720">
+
+<a id="bcard-1-live" class="live-link" href="https://to-do-list-kumk1zdob-azasiphes-projects.vercel.app/"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-1-code" class="code-link" href="https://github.com/azasiphe/To-Do-List.git"> <i class="fab fa-github"></i>code</a>
+
+<img id="bcard-2-ent" src="https://i.ibb.co/Ry5zzCF/Screenshot-2024-01-11-131116.png" alt="business card 2 image" width="1280" height="720">
+<a id="bcard-2-live" class="live-link" href="https://days-calculator-gold.vercel.app/"><i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-2-code" class="code-link" href="https://github.com/azasiphe/days-calculator.git"> <i class="fab fa-github"></i>code</a>
+
+<img id="bcard-3-ent" src="https://i.ibb.co/BfwyhJP/Screenshot-2024-01-11-132806.png" alt="business card 3 image" width="1280" height="720">
+
+<a id="bcard-3-live" class="live-link" href="https://triangle-vert.vercel.app/"  ><i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-3-code" class="code-link" href="https://github.com/azasiphe/triangle.git"> <i class="fab fa-github"></i>code</a>
+
+<img id="bcard-4-ent" src="https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png" alt="business card 4 image" width="1280" height="720">
+
+<a id="bcard-4-live" class="live-link" href="https://node-project-1feb7.web.app/"><i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-4-code"class="code-link" href="https://github.com/gcusaaa/createApplication"> <i class="fab fa-github"></i>code</a>
+
+<img id="bcard-5-ent" src="https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png" alt="business card 5 image" width="1280" height="720">
+
+<a id="bcard-5-live"class="live-link" href="keyboard2-5d0c7ftgg-azasiphes-projects.vercel.app"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-5-code"class="code-link" href="https://github.com/azasiphe/keyboard-android.gi"> <i class="fab fa-github"></i>code</a>
+
+<img id="bcard-6-ent" src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" alt="business card 6 image" width="1280" height="720">
+
+<a id="bcard-6-live"class="live-link" href="capstone-project-45314.firebaseapp.com"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-6-code" class="code-link" href="https://github.com/azasiphe/capstone-project.git"> <i class="fab fa-github"></i>code</a>
+
+
+<div class="lightbox-backdrop"></div>
+
+<div class="tooltip">
+<p>
+  Hover over a card!
+</p>
 </div>
 	</div>
-	
+
 	<div class='cursor' id="cursor"></div>
 	<div class='cursor2' id="cursor2"></div>
 	<div class='cursor3' id="cursor3"></div>
@@ -456,6 +559,11 @@
 
 </template>
 <script>
+import ThreeScene from '../components/ThreeScene.vue';
+export default {
+
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     (function($) {
         "use strict";
@@ -970,7 +1078,9 @@ text-shadow: red 5px 4px 8px;
     overflow-x:hidden;
 	height: 100vh;
     background-color:black;
-	background-image: url('https://i.ytimg.com/vi/cr3Bf53Lseo/maxresdefault.jpg');
+    height:100vh;
+
+background-image: url('https://i.ibb.co/4Wqg4bM/background-1939128-1280.jpg"');
   background-size: cover;
 	transform: translateX(100%);
 	-webkit-transition: all 300ms linear;
@@ -1340,222 +1450,9 @@ body.nature-on .nature-section {
 		font-size: 13vw;
 	}
 }
-/* projects */
-
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.project-card {
-  background-color: black;
-  border: 2px solid transparent;
-  border-radius: 2px;
-  margin: 20px;
-  padding: 10px; /* Adjusted padding for better layout */
-  display: flex;
-  flex-wrap: wrap;
-  height: auto;
-  width: calc(30.33% - 60px);
-  position: relative;
-  overflow: hidden;
-  transition: border-color 0.5s;
-  box-sizing: border-box;
-  animation: border-color-animation 5s infinite;
-}
-.pro-image {
-  width: 90%;
-  height: 100%;
-  border-radius: 5px;
-  border: 5px solid black;
-  transition: filter 0.5s;
-}
-
-@keyframes border-color-animation {
-  0% { border-color: green; }
-  20% { border-color: blue; }
-  30% { border-color: pink; }
-  40% { border-color: red; }
-  50% { border-color: white; }
-  60% { border-color: black; }
-  80% { border-color: yellow; }
-  100% { border-color: green; }
-}
 
 
 
-.project-details {
-  position: absolute;
-
-  left: 0;
-  width: 100%;
-  height: 114%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.project-card:hover .project-details {
-  opacity: 1;
-}
-
-.project-name {
-  font-style: italic;
-  color: red;
-  font-size: 10px;
-  text-decoration: underline 2px solid black;
-  margin-bottom: 10px;
-}
-
-.button-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.live-button,
-.code-button {
-  background-color: black;
-  color: red;
-  text-decoration: none;
-  padding: 8px 15px;
-  border-radius: 5px;
-  border: 3px solid red;
-  transition: background-color 0.3s ease;
-}
-
-.live-button:hover,
-.code-button:hover {
-  background-color: red;
-  color: black;
-}.video {
-    min-width: 100%;
-    max-height: 720px;
-   
-
-
-  }
-  /* bigger */
-  @media only screen and (max-width: 770px) {
-    .button-container {
-height:54%;
-  width: 80%;
-  gap:3px;
-  font-size:15%;
-  margin-right:-100%;
-  color: black;
-}
-
-
-.project-name {
-  font-style: italic;
-  color: red;
-  font-size: 10px;
- 
-  margin-bottom: 10px;
-}
-
-.live-button,
-.code-button {
-    background-color: red;
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-  border: 3px solid red;
-  transition: background-color 0.3s ease; 
-  width: 30000%; 
-}
-
-.live-button:hover,
-.code-button:hover {
-  background-color: black;
-  color: red;
-}
-
-  .project-card {
-  background-color: black;
-  border: 2px solid transparent;
-  border-radius: 2px;
-  margin: 20px;
-  padding: 10px; /* Adjusted padding for better layout */
- 
-
-  height: auto;
-  width: calc(50.33% - 60px);
-  position: relative;
-  overflow: hidden;
-  transition: border-color 0.5s;
-  box-sizing: border-box;
-  animation: border-color-animation 5s infinite;
-}
-
-}
-  @media only screen and (max-width: 975px) {
-    .button-container {
-height:34%;
-  width: 20%;
-  gap:3px;
-  font-size:12%;
-  margin-left:-150%;
-  color: black;
-}
-
-
-.project-name {
-  font-style: italic;
-  color: red;
-  font-size: 10px;
- 
-  margin-bottom: 10px;
-}
-
-.live-button,
-.code-button {
-    background-color: red;
-  color: black;
-  text-decoration: none;
-  border-radius: 5px;
-  border: 3px solid red;
-  transition: background-color 0.3s ease; 
-  width: 30000%; 
-}
-
-.live-button:hover,
-.code-button:hover {
-  background-color: black;
-  color: red;
-}
-
-  .project-card {
-  background-color: black;
-  border: 2px solid transparent;
-  border-radius: 2px;
-  margin: 20px;
-  padding: 10px; /* Adjusted padding for better layout */
- 
-
-  height: auto;
-  width: calc(50.33% - 60px);
-  position: relative;
-  overflow: hidden;
-  transition: border-color 0.5s;
-  box-sizing: border-box;
-  animation: border-color-animation 5s infinite;
-}
-
-}
-.video img {
-    min-width: 100%;
-    min-height: 100%;
-
-}
 .video .overlay {
     position: absolute;
     top: 0;
@@ -1564,7 +1461,7 @@ height:34%;
     height: 100%;
     color: #fff;
     padding-top: 80px;
-     background-color: rgba(0, 32, 60, 0.44);
+
 }
 .video .overlay h2 {
   text-transform: uppercase;
@@ -1825,5 +1722,504 @@ box-shadow:4px solid #1f2029;
   }
 
   
+.info-arrow {
+    position: absolute;
+    top: 80%; /* Adjust as needed */
+    left: 20%;
+    color:white;
+    font-size:18PX;
+    text-align: center;
+}
+.arrow {
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white; /* Changed to white and bottom */
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(-50%, 0);
+    }
+    25% {
+        transform: translate(-50%, -5px);
+    }
+    50% {
+        transform: translate(-50%, 0);
+    }
+    75% {
+        transform: translate(-50%, 5px);
+    }
+    100% {
+        transform: translate(-50%, 0);
+    }
+}
+/* projects */
+*,
+*::before,
+*::after {
+  
+
+  transform-style: preserve-3d;
+}
+
+
+
+.nature-section {
+    background-image: url('https://i.ibb.co/4Wqg4bM/background-1939128-1280.jpg');
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  perspective: 12in;
+  perspective-origin: 50% 50%;
+  animation: perspective 10s linear infinite;
+  animation-delay: 1s;
+}
+
+@keyframes perspective {
+  0% {
+    perspective-origin: 50% 50%;
+    perspective: 12in;
+  }
+  25% {
+    perspective-origin: 20% 30%;
+    perspective: 15in;
+  }
+  75% {
+    perspective-origin: 80% 70%;
+    perspective: 15in;
+  }
+  100% {
+    perspective-origin: 50% 50%;
+    perspective: 12in;
+  }
+}
+
+.nature-section .surface {
+  position: relative;
+  background: transparent;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300%;
+  height: 300%;
+  left: -100%;
+  transform: rotateX(90deg) translateZ(-2.5in) translateY(-1in);
+}
+
+.nature-section .surface .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+  background-position: center;
+  transform: translateZ(-1.02in) translateX(1in);
+  filter: blur(0.01in);
+}
+
+.nature-section .surface .background::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  border-radius: 50%;
+}
+
+.nature-section .surface .card-p {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 3.5in;
+  height: 2in;
+  background: url("https://i.ibb.co/Jmp7f5w/to-do.png");
+  background-position: center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  transform: translateX(0.5in) rotateX(-30deg) rotateY(-10deg) rotateZ(-60deg);
+  outline: 0.01in solid transparent;
+  outline-offset: 0in;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section .surface .card-p p {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0.1in;
+  font-size: 12pt;
+  line-height: 22pt;
+  font-weight: 500;
+  margin: 0;
+}
+
+.nature-section .surface .card-p svg {
+  background: rgba(255, 255, 255, 0.7);
+  width: 2in;
+  height: auto;
+  padding: 0.2in;
+  border-radius: 0.5in;
+}
+
+.nature-section .surface .card-p:nth-child(2) {
+  background: url("https://i.ibb.co/Ry5zzCF/Screenshot-2024-01-11-131116.png");
+  transform: translateZ(1.4in) translateX(-2in) rotateX(-25deg) rotateY(40deg)
+    rotateZ(-60deg);
+}
+
+.nature-section .surface .card-p:nth-child(3) {
+  background: url("https://i.ibb.co/BfwyhJP/Screenshot-2024-01-11-132806.png");
+  transform: translateZ(3.1in) translateX(-0.25in) rotateX(-70deg) rotateY(0deg)
+    rotateZ(-60deg);
+}
+
+.nature-section .surface .card-p:nth-child(4) {
+  background: url("https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png");
+  transform: translateZ(4.5in) translateX(-0.8in) translateY(0.6in)
+    rotateX(-80deg) rotateY(0deg) rotateZ(-20deg);
+}
+
+.nature-section .surface .card-p:nth-child(5) {
+  background: url("https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png");
+  transform: translateZ(5.8in) translateX(1.4in) translateY(-0.7in)
+    rotateX(-70deg) rotateY(0deg) rotateZ(15deg);
+}
+
+.nature-section .surface .card-p:nth-child(6) {
+  background: url("https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png");
+  transform: translateZ(2in) translateX(1.7in) translateY(-0.7in)
+    rotateX(-60deg) rotateY(25deg);
+}
+
+.nature-section .surface .card-p:nth-child(1)::after {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: black;
+  transform: rotateZ(20deg) rotateY(27deg) rotateX(17deg) translateX(0.3in)
+    translateY(0.5in) translateZ(-1in);
+  filter: blur(0.5in);
+  opacity: 0.8;
+}
+
+.nature-section .surface .card-p:nth-child(2)::after {
+  position: absolute;
+  top: 0.4in;
+  right: 0.4in;
+  width: 30%;
+  height: 50%;
+  content: "";
+  background: black;
+  filter: blur(0.6in);
+  opacity: 0.7;
+}
+
+.nature-section .card-p div {
+  position: absolute;
+  background: #eee;
+  transform-origin: 50% 50%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.nature-section .card-p .back {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: translateZ(-0.035in) rotateX(180deg);
+}
+
+.nature-section .card-p .bottom {
+  width: 3.485in;
+  height: 0.035in;
+  transform: rotateX(-90deg) translateZ(1in) translateX(-0.01in);
+}
+
+.nature-section  .card-p .top {
+  width: 3.485in;
+  height: 0.035in;
+  transform: rotateX(90deg) translateZ(0.97in) translateX(-0.01in);
+}
+
+.nature-section .card-p .left {
+  width: 1.97in;
+  height: 0.035in;
+  transform: rotateX(-90deg) rotateY(-90deg) translateZ(1.75in)
+    translateX(0.02in);
+}
+
+.nature-section  .card-p .right {
+  width: 1.97in;
+  height: 0.035in;
+  transform: rotateX(-90deg) rotateY(90deg) translateZ(1.75in)
+    translateX(-0.02in);
+}
+
+.nature-section  .surface .card-p:hover {
+  outline: 0.04in solid white;
+  outline-offset: 0.2in;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section  .surface .card-p .menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  visibility: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section  .surface .card-p .menu label {
+  padding: 0.2in 0.25in;
+  background: dodgerblue;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.1in;
+  text-decoration: none;
+  font-size: 14pt;
+  line-height: 28pt;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section  label:hover {
+  cursor: pointer;
+}
+
+.nature-section .surface .card-p .menu label:hover {
+  background: #888;
+  border-radius: 0.3in;
+  font-size: 16pt;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section  .surface .card-p:hover .menu {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section > input {
+  display: none;
+}
+
+.nature-section > img {
+  position: fixed;
+  align-self: flex-end;
+  margin-bottom: 0.4in;
+  height: 50%;
+  width: auto;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section  .lightbox-backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section  #close-button {
+    bottom:80%;
+  width:5%;
+height:15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+ 
+  background: white;
+  border-radius: 0.1in;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  z-index: 2;
+}
+
+.nature-section  #close-button::after {
+  position: absolute;
+  width: 1.5in;
+  height: auto;
+  padding: 0.1in 0in;
+  bottom: 110%;
+  content: "TAP TO CLOSE";
+  background: black;
+  color: white;
+  font-size: 12pt;
+  line-height: 24pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.1in;
+}
+
+.nature-section #close-button svg {
+  width: 80%;
+  height: auto;
+  fill: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.nature-section  #close-button:hover svg {
+  transform: rotateZ(180deg);
+  transition: all 0.2s ease-in-out;
+}
+
+.nature-section  #close-button,
+.nature-section  #close-lbox:checked ~ img,
+.nature-section #close-lbox:checked ~ #close-button {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nature-section> input:checked ~ #close-button ,
+#bcard-1-img:checked ~ #bcard-1-ent ,
+#bcard-2-img:checked ~ #bcard-2-ent,
+#bcard-3-img:checked ~ #bcard-3-ent ,
+
+#bcard-4-img:checked ~ #bcard-4-ent ,
+
+#bcard-5-img:checked ~ #bcard-5-ent ,
+
+#bcard-6-img:checked ~ #bcard-6-ent ,
+
+#bcard-1-img:checked ~ .lightbox-backdrop,
+#bcard-2-img:checked ~ .lightbox-backdrop,
+#bcard-3-img:checked ~ .lightbox-backdrop,
+#bcard-4-img:checked ~ .lightbox-backdrop,
+#bcard-5-img:checked ~ .lightbox-backdrop,
+#bcard-6-img:checked ~ .lightbox-backdrop {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.live-link,
+.code-link {
+  display: none;
+}
+/* Show live and code links when corresponding image is visible */
+#bcard-1-img:checked ~ #bcard-1-ent + #bcard-1-live,
+#bcard-1-img:checked ~ #bcard-1-ent + #bcard-1-code,
+#bcard-2-img:checked ~ #bcard-2-ent + #bcard-2-live,
+#bcard-2-img:checked ~ #bcard-2-ent + #bcard-2-code,
+#bcard-3-img:checked ~ #bcard-3-ent + #bcard-3-live,
+#bcard-3-img:checked ~ #bcard-3-ent + #bcard-3-code ,
+#bcard-4-img:checked ~ #bcard-4-ent + #bcard-4-live,
+#bcard-4-img:checked ~ #bcard-4-ent + #bcard-4-code,
+#bcard-5-img:checked ~ #bcard-5-ent + #bcard-5-live,
+#bcard-5-img:checked ~ #bcard-5-ent + #bcard-5-code,
+#bcard-6-img:checked ~ #bcard-6-ent + #bcard-6-live,
+#bcard-6-img:checked ~ #bcard-6-ent + #bcard-6-code,
+{
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Additional styling for live and code links (adjust as needed) */
+.live-link,
+.code-link {
+  margin-top: 10px; /* Add spacing between links */
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.live-link:hover,
+.code-link:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+.nature-section .tooltip {
+  position: fixed;
+  top: 0.3in;
+  right: 0.5in;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nature-section  .tooltip p {
+  color: white;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-weight: 500;
+  text-shadow: 1px 1px 5px black;
+  text-decoration: underline;
+}
+
+@media (max-height: 670px) {
+    .nature-section  .surface {
+    transform: rotateX(90deg) translateZ(-2.5in) translateY(-4in);
+  }
+  .nature-section  #close-button {
+    top: 10%;
+  }
+}
+
+@media (min-height: 590px) and (max-height: 670px) {
+  .nature-section .surface {
+    transform: rotateX(90deg) translateZ(-2.5in) translateY(-2in);
+  }
+}
+
+@media (max-height: 520px) {
+.nature-section  #close-button {
+    top: 15%;
+  }
+  .nature-section > img {
+    margin-bottom: 0px;
+  }
+}
+
 
 </style>
