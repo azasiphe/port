@@ -93,12 +93,12 @@
 <i class="fas fa-envelope email-icon"></i>
 <span class="location trade-winds-regular" style="font-size:16px; text-shadow:blue 4px 7px 14px;">azasiphendoro@gmail.com</span>
                     </div>
-                    <form>
+                    <form action="https://submit-form.com/q37Rp6Fli">
                         <input type="text" name="name" placeholder=" your name">
                         <input type="email" name="email" placeholder="your email">
                         <input type="tel" name="phone" placeholder="your phone">
                         <input type="text" name="subject" placeholder="subject">
-                        <textarea placeholder="your message"></textarea>
+                        <textarea type="text" name="message" placeholder="your message"></textarea>
                         <button><div>send
                             <i class="fa fa-arrow-right"></i></div>
                         </button>
@@ -160,6 +160,7 @@
                                 <div class="card-content1" style="color:black;">
                                     <p>Code Telligence</p>
                                     <p>Jan 2023 - Jun 2023</p>
+                                    
                                 </div>
                             </div>
                             <div class="info-arrow">
@@ -387,8 +388,8 @@
 
   <div class="menu">
 
-    <label for="bcard-1-img">view more></label>
-    <p>To do list</p>
+    <label for="bcard-1-img" class="trade-winds-regular">view more></label>
+    <p class="trade-winds-regular">To do list</p>
   </div>
 
 </div>
@@ -405,8 +406,8 @@
 
   <div class="menu">
 
-    <label for="bcard-2-img">view more></label>
-    <p>Age count</p>
+    <label for="bcard-2-img" class="trade-winds-regular">view more></label>
+    <p class="trade-winds-regular">Age count</p>
   </div>
 
 </div>
@@ -422,8 +423,8 @@
 
   <div class="menu">
 
-    <label for="bcard-3-img">view more></label>
-    <p>Area calculator</p>
+    <label for="bcard-3-img" class="trade-winds-regular">view more></label>
+    <p class="trade-winds-regular">Area calculator</p>
   </div>
 
 </div>
@@ -440,8 +441,8 @@
 
   <div class="menu">
 
-    <label for="bcard-4-img">view more ></label>
-    <p>Ecommerce</p>
+    <label for="bcard-4-img" class="trade-winds-regular">view more ></label>
+    <p class="trade-winds-regular">Ecommerce</p>
   </div>
 
 </div>
@@ -457,8 +458,8 @@
 
   <div class="menu">
 
-    <label for="bcard-5-img">view more></label>
-    <p>Keyboard</p>
+    <label for="bcard-5-img" class="trade-winds-regular">view more></label>
+    <p class="trade-winds-regular">Keyboard</p>
   </div>
 
 </div>
@@ -483,8 +484,8 @@
 
   <div class="menu">
 
-    <label for="bcard-6-img">view more></label>
-<p>TURBO</p>
+    <label for="bcard-6-img" class="trade-winds-regular">view more></label>
+<p class="trade-winds-regular">TURBO</p>
   </div>
 
 </div>
@@ -510,32 +511,32 @@
 </label>
 <img id="bcard-1-ent" src="https://i.ibb.co/Jmp7f5w/to-do.png" alt="business card 1 image" width="1280" height="720">
 
-<a id="bcard-1-live" class="live-link" href="https://to-do-list-kumk1zdob-azasiphes-projects.vercel.app/"> <i class="fas fa-external-link-alt"></i>live</a>
-<a id="bcard-1-code" class="code-link" href="https://github.com/azasiphe/To-Do-List.git"> <i class="fab fa-github"></i>code</a>
+<a id="bcard-1-live" class="live-link trade-winds-regular" href="https://to-do-list-kumk1zdob-azasiphes-projects.vercel.app/"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-1-code" class="code-link trade-winds-regular" href="https://github.com/azasiphe/To-Do-List.git"> <i class="fab fa-github"></i>code</a>
 
 <img id="bcard-2-ent" src="https://i.ibb.co/Ry5zzCF/Screenshot-2024-01-11-131116.png" alt="business card 2 image" width="1280" height="720">
-<a id="bcard-2-live" class="live-link" href="https://days-calculator-gold.vercel.app/"><i class="fas fa-external-link-alt"></i>live</a>
-<a id="bcard-2-code" class="code-link" href="https://github.com/azasiphe/days-calculator.git"> <i class="fab fa-github"></i>code</a>
+<a id="bcard-2-live" class="live-link trade-winds-regular" href="https://days-calculator-gold.vercel.app/"><i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-2-code" class="code-link trade-winds-regular" href="https://github.com/azasiphe/days-calculator.git"> <i class="fab fa-github"></i>code</a>
 
 <img id="bcard-3-ent" src="https://i.ibb.co/BfwyhJP/Screenshot-2024-01-11-132806.png" alt="business card 3 image" width="1280" height="720">
 
-<a id="bcard-3-live" class="live-link" href="https://triangle-vert.vercel.app/"  ><i class="fas fa-external-link-alt"></i>live</a>
-<a id="bcard-3-code" class="code-link" href="https://github.com/azasiphe/triangle.git"> <i class="fab fa-github"></i>code</a>
+<a id="bcard-3-live" class="live-link trade-winds-regular" href="https://triangle-vert.vercel.app/"  ><i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-3-code" class="code-link trade-winds-regular" href="https://github.com/azasiphe/triangle.git"> <i class="fab fa-github"></i>code</a>
 
 <img id="bcard-4-ent" src="https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png" alt="business card 4 image" width="1280" height="720">
 
-<a id="bcard-4-live" class="live-link" href="https://node-project-1feb7.web.app/"><i class="fas fa-external-link-alt"></i>live</a>
-<a id="bcard-4-code"class="code-link" href="https://github.com/gcusaaa/createApplication"> <i class="fab fa-github"></i>code</a>
+<a id="bcard-4-live" class="live-link trade-winds-regular" href="https://node-project-1feb7.web.app/"><i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-4-code"class="code-link trade-winds-regular" href="https://github.com/gcusaaa/createApplication"> <i class="fab fa-github"></i>code</a>
 
 <img id="bcard-5-ent" src="https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png" alt="business card 5 image" width="1280" height="720">
 
-<a id="bcard-5-live"class="live-link" href="keyboard2-5d0c7ftgg-azasiphes-projects.vercel.app"> <i class="fas fa-external-link-alt"></i>live</a>
-<a id="bcard-5-code"class="code-link" href="https://github.com/azasiphe/keyboard-android.gi"> <i class="fab fa-github"></i>code</a>
+<a id="bcard-5-live"class="live-link trade-winds-regular" href="keyboard2-5d0c7ftgg-azasiphes-projects.vercel.app"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-5-code"class="code-link trade-winds-regular" href="https://github.com/azasiphe/keyboard-android.gi"> <i class="fab fa-github"></i>code</a>
 
 <img id="bcard-6-ent" src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" alt="business card 6 image" width="1280" height="720">
 
-<a id="bcard-6-live"class="live-link" href="capstone-project-45314.firebaseapp.com"> <i class="fas fa-external-link-alt"></i>live</a>
-<a id="bcard-6-code" class="code-link" href="https://github.com/azasiphe/capstone-project.git"> <i class="fab fa-github"></i>code</a>
+<a id="bcard-6-live"class="live-link trade-winds-regular" href="capstone-project-45314.firebaseapp.com"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-6-code" class="code-link trade-winds-regular " href="https://github.com/azasiphe/capstone-project.git"> <i class="fab fa-github"></i>code</a>
 
 
 <div class="lightbox-backdrop"></div>
@@ -1234,13 +1235,15 @@ font-size:lighter;
 .card {
  display: inline;
  width: 90px; 
-
  height: 80px; 
  perspective: 1000px;
 }
 
 .card-inner {
  margin: 0 0 0 33%;
+
+ position: relative;
+
  width: 50%;
  height: 60%;
  transition: transform 0.7s;
@@ -1248,32 +1251,39 @@ font-size:lighter;
 }
 
 .card:hover .card-inner {
- transform: rotateY(180deg);
+   transform: rotateY(180deg);
+   backface-visibility: hidden;
 }
 
 .card-front,
 .card-back {
  width: 60%;
- height: 60%;
- backface-visibility: hidden;
- position: relative;
- 
+ height: 110%;
+
 }
 
 .card-front {
  background-color: red; 
- padding: 30px;
-
+ padding: -50px;
  border: 3px solid white;
+ position:fixed;
+ backface-visibility: hidden;
+ z-index:8;
 }
 
 .card-back {
+    
+    position:relative;
+z-index:-4;
+backface-visibility: hidden;
  background-color: black;
  color: antiquewhite;
  border:2px solid red ;
  padding: 15px;
  transform: rotateY(180deg);
-}   .skills-container {
+ 
+}  
+ .skills-container {
    display: grid;
    grid-template-columns: repeat(4, 1fr); 
    gap:10px;
@@ -1723,9 +1733,10 @@ box-shadow:4px solid #1f2029;
 
   
 .info-arrow {
+        
     position: absolute;
-    top: 80%; /* Adjust as needed */
-    left: 20%;
+    top: 120%; /* Adjust as needed */
+    left: 50%;
     color:white;
     font-size:18PX;
     text-align: center;
@@ -2053,6 +2064,7 @@ box-shadow:4px solid #1f2029;
   transition: all 0.3s ease-in-out;
 }
 
+
 .nature-section  .lightbox-backdrop {
   position: fixed;
   width: 100%;
@@ -2064,6 +2076,53 @@ box-shadow:4px solid #1f2029;
   transition: all 0.3s ease-in-out;
 }
 
+.nature-section  .live-link {
+    bottom:7%;
+  width:15%;
+height:15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ position:fixed;
+  visibility: hidden;
+  opacity: 0;
+  background-color: transparent;
+  cursor: pointer; 
+  font-size:26px;
+  border: 1px solid blue;
+  border-radius: 0.1in;
+  z-index: 2;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+margin-right:18%;
+}
+.nature-section  .code-link {
+    bottom:7%;
+  width:15%;
+  margin:0 0 0 20%;
+  font-size:26px;
+height:15;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  background-color: transparent;
+  border: 1px solid blue;
+  cursor: pointer; 
+  border-radius: 0.1in;
+  z-index: 2;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+.nature-section .live-link:hover,
+.nature-section .code-link:hover {
+  opacity: 1;
+  background-color: transparent;
+  border: 1px solid red;
+  text-shadow:blue 8px 4px 14px; /* Semi-transparent black background on hover */
+}
 .nature-section  #close-button {
     bottom:80%;
   width:5%;
@@ -2112,24 +2171,51 @@ height:15;
 }
 
 .nature-section  #close-button,
-.nature-section  #close-lbox:checked ~ img,
+.nature-section  img,
+.nature-section  .live-link,
+.nature-section   .code-link,
 .nature-section #close-lbox:checked ~ #close-button {
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
+/* Show close button when any card is checked */
+.nature-section > input:checked ~ #close-button {
+  visibility: visible;
+  opacity: 1;
 
-.nature-section> input:checked ~ #close-button ,
-#bcard-1-img:checked ~ #bcard-1-ent ,
+}
+
+/* Show specific business card content when its corresponding radio input is checked */
+/* Example: Card 1 */
+#bcard-1-img:checked ~ #bcard-1-ent,
+#bcard-1-img:checked ~ #bcard-1-live,
+#bcard-1-img:checked ~ #bcard-1-code,
+/* Example: Card 2 */
 #bcard-2-img:checked ~ #bcard-2-ent,
-#bcard-3-img:checked ~ #bcard-3-ent ,
+#bcard-2-img:checked ~ #bcard-2-live,
+#bcard-2-img:checked ~ #bcard-2-code,
+/* Example: Card 3 */
+#bcard-3-img:checked ~ #bcard-3-ent,
+#bcard-3-img:checked ~ #bcard-3-live,
+#bcard-3-img:checked ~ #bcard-3-code,
+/* Example: Card 4 */
+#bcard-4-img:checked ~ #bcard-4-ent,
+#bcard-4-img:checked ~ #bcard-4-live,
+#bcard-4-img:checked ~ #bcard-4-code,
+/* Example: Card 5 */
+#bcard-5-img:checked ~ #bcard-5-ent,
+#bcard-5-img:checked ~ #bcard-5-live,
+#bcard-5-img:checked ~ #bcard-5-code,
+/* Example: Card 6 */
+#bcard-6-img:checked ~ #bcard-6-ent,
+#bcard-6-img:checked ~ #bcard-6-live,
+#bcard-6-img:checked ~ #bcard-6-code {
+  visibility: visible;
+  opacity: 1;
+}
 
-#bcard-4-img:checked ~ #bcard-4-ent ,
-
-#bcard-5-img:checked ~ #bcard-5-ent ,
-
-#bcard-6-img:checked ~ #bcard-6-ent ,
-
+/* Show lightbox backdrop when any card's corresponding radio input is checked */
 #bcard-1-img:checked ~ .lightbox-backdrop,
 #bcard-2-img:checked ~ .lightbox-backdrop,
 #bcard-3-img:checked ~ .lightbox-backdrop,
@@ -2138,46 +2224,8 @@ height:15;
 #bcard-6-img:checked ~ .lightbox-backdrop {
   visibility: visible;
   opacity: 1;
-  transition: all 0.3s ease-in-out;
-}
-.live-link,
-.code-link {
-  display: none;
-}
-/* Show live and code links when corresponding image is visible */
-#bcard-1-img:checked ~ #bcard-1-ent + #bcard-1-live,
-#bcard-1-img:checked ~ #bcard-1-ent + #bcard-1-code,
-#bcard-2-img:checked ~ #bcard-2-ent + #bcard-2-live,
-#bcard-2-img:checked ~ #bcard-2-ent + #bcard-2-code,
-#bcard-3-img:checked ~ #bcard-3-ent + #bcard-3-live,
-#bcard-3-img:checked ~ #bcard-3-ent + #bcard-3-code ,
-#bcard-4-img:checked ~ #bcard-4-ent + #bcard-4-live,
-#bcard-4-img:checked ~ #bcard-4-ent + #bcard-4-code,
-#bcard-5-img:checked ~ #bcard-5-ent + #bcard-5-live,
-#bcard-5-img:checked ~ #bcard-5-ent + #bcard-5-code,
-#bcard-6-img:checked ~ #bcard-6-ent + #bcard-6-live,
-#bcard-6-img:checked ~ #bcard-6-ent + #bcard-6-code,
-{
-  visibility: visible;
-  opacity: 1;
 }
 
-/* Additional styling for live and code links (adjust as needed) */
-.live-link,
-.code-link {
-  margin-top: 10px; /* Add spacing between links */
-  text-decoration: none;
-  padding: 5px 10px;
-  background-color: #007bff;
-  color: #ffffff;
-  border-radius: 4px;
-}
-
-.live-link:hover,
-.code-link:hover {
-  background-color: dodgerblue;
-  color: white;
-}
 .nature-section .tooltip {
   position: fixed;
   top: 0.3in;
