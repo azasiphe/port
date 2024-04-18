@@ -134,11 +134,7 @@
                                     <p>2018 - 2022</p>
                                 </div>
                             </div>
-                            <div class="info-arrow">
-                                <div class="arrow"></div>
-            <span>Hover over for more info</span>
-            
-        </div>
+                 
                             <div class="card-back">
                             <div class="card-content2" style="color:white;">
                                 
@@ -163,11 +159,7 @@
                                     
                                 </div>
                             </div>
-                            <div class="info-arrow">
-                                <div class="arrow"></div>
-            <span>Hover over for more info</span>
-            
-        </div>
+                          
                             <div class="card-back">
                                 <div class="card-content2">
                                     <p>Code Telligence</p>
@@ -191,11 +183,7 @@
                                 </div>
                             </div>
                             
-                            <div class="info-arrow">
-                                <div class="arrow"></div>
-            <span>Hover over for more info</span>
-           
-        </div>
+                
                             <div class="card-back">
                                 <div class="card-content2">
                                     <p>Life Choices</p>
@@ -1253,6 +1241,16 @@ font-size:lighter;
 .card:hover .card-inner {
    transform: rotateY(180deg);
    backface-visibility: hidden;
+   
+}
+
+.card:hover .card-inner .card-back {
+    opacity: 1;
+    transition: 200ms;
+}
+.card:hover .card-inner .card-front {
+    opacity: 0;
+    transition: 200ms;
 }
 
 .card-front,
@@ -1268,20 +1266,21 @@ font-size:lighter;
  border: 3px solid white;
  position:fixed;
  backface-visibility: hidden;
- z-index:8;
+ z-index:-8;
+ opacity: 1;
 }
 
 .card-back {
     
     position:relative;
-z-index:-4;
+z-index:4;
 backface-visibility: hidden;
  background-color: black;
  color: antiquewhite;
- border:2px solid red ;
+ border:2px solid red;
  padding: 15px;
  transform: rotateY(180deg);
- 
+ opacity: 0;
 }  
  .skills-container {
    display: grid;
@@ -1732,27 +1731,8 @@ box-shadow:4px solid #1f2029;
   }
 
   
-.info-arrow {
-        
-    position: absolute;
-    top: 120%; /* Adjust as needed */
-    left: 50%;
-    color:white;
-    font-size:18PX;
-    text-align: center;
-}
-.arrow {
-    position: absolute;
-    top: -50%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 8px solid white; /* Changed to white and bottom */
-    animation: shake 0.5s infinite;
-}
+
+
 
 @keyframes shake {
     0% {
