@@ -1268,6 +1268,7 @@ font-size:lighter;
  backface-visibility: hidden;
  z-index:-8;
  opacity: 1;
+ transition: 200ms;
 }
 
 .card-back {
