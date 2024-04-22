@@ -523,7 +523,7 @@
 
 <img id="bcard-6-ent" src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" alt="business card 6 image" width="1280" height="720">
 
-<a id="bcard-6-live"class="live-link trade-winds-regular" href="capstone-project-45314.firebaseapp.com"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-6-live"class="live-link trade-winds-regular" href="turbo-git-main-azasiphes-projects.vercel.app"> <i class="fas fa-external-link-alt"></i>live</a>
 <a id="bcard-6-code" class="code-link trade-winds-regular " href="https://github.com/azasiphe/capstone-project.git"> <i class="fab fa-github"></i>code</a>
 
 
@@ -2246,7 +2246,19 @@ height:15;
     top: 15%;
   }
   .nature-section > img {
-    margin-bottom: 0px;
+ 
+    width: 50% ;
+    height:90%;
+  }
+}@media (max-width: 768px) {
+  .card-p {
+    max-width: calc(50% - 40px); /* Two cards per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-p {
+    max-width: calc(100% - 40px); /* One card per row */
   }
 }
 
