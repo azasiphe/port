@@ -59,7 +59,7 @@
       </div>
     </div>
     <div class="substrate">
-  <h3 class="trade-winds-regular">My Hobbies</h3>
+  <h3 class="trade-winds-regular"  style="font-size: 30px;">My Hobbies</h3>
   <ul class="skills trade-winds-regular">
     <li class="skill"><span><i class="fas fa-book" style="color: red;"></i> Reading Books</span></li>
     <li class="skill"><span><i class="fas fa-laptop-code" style="color: red;"></i> Coding</span></li>
@@ -212,7 +212,15 @@ Mastering basic calculation techniques.</p>
                                 <div class="card-content1 " style="background-color: black; margin: 0 0 0 8%; position:relative; ">
                                   <img src="https://i.ibb.co/xs1PS7L/lc-studio.jpg" style="width:30%; margin: 0 0 0 28%; " />
                                     
-                                    <p style="color:bisque; font-size: 25px; margin: 0 0 0 1%; " >I'm an intern at LC Studio,  I am assisting in clients projects with  dynamic content rendering and interactive user experiences. .</p>
+                                    <p style="color:bisque; font-size: 25px; margin: 0 0 0 1%; " >As  fullstack developer and  Intern at LC STUDIO, I am deeply driven by the art of crafting visually captivating and seamlessly functional websites.
+
+ 
+
+I firmly hold the belief that a website should not only dazzle the eyes but also deliver an effortless user experience. Throughout my internship journey, I've actively collaborated with seasoned developers, absorbing the most current web development methodologies and technologies.
+
+
+
+Eagerly, I anticipate leveraging this newfound expertise to craft remarkable digital landscapes for our clientele</p>
                                 </div>
                             </div>
                             </div>
@@ -252,12 +260,7 @@ Mastering basic calculation techniques.</p>
                                 <p class="skill-name">Bootstrap</p>
                             </div>
                         </div>
-                        <div class="card skill-card">
-                            <div class="card-content">
-                                <img src="https://i.postimg.cc/5y5qpHgq/SCRUM-1.png" class="skill-image" />
-                                <p class="skill-name">Scrum</p>
-                            </div>
-                        </div>
+                        
                         <div class="card skill-card">
                             <div class="card-content">
                                 <img src="https://i.postimg.cc/bJRmbCcY/download-1.png" class="skill-image" />
@@ -270,7 +273,13 @@ Mastering basic calculation techniques.</p>
                                 <p class="skill-name">Node.JS</p>
                             </div>
                         </div>
- 
+  
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/5y5qpHgq/SCRUM-1.png" class="skill-image" />
+                                <p class="skill-name">Scrum</p>
+                            </div>
+                        </div>
                         <!-- Repeat the above structure for each skill data item -->
                     </div>
                 </div>
