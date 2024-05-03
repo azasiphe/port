@@ -447,7 +447,7 @@
   <div class="menu">
 
     <label for="bcard-5-img" class="trade-winds-regular">view more></label>
-    <p class="trade-winds-regular">Keyboard</p>
+    <p class="trade-winds-regular">Soduko</p>
   </div>
 
 </div>
@@ -516,10 +516,10 @@
 <a id="bcard-4-live" class="live-link trade-winds-regular" href="https://node-project-1feb7.web.app/"><i class="fas fa-external-link-alt"></i>live</a>
 <a id="bcard-4-code"class="code-link trade-winds-regular" href="https://github.com/gcusaaa/createApplication"> <i class="fab fa-github"></i>code</a>
 
-<img id="bcard-5-ent" src="https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png" alt="business card 5 image" width="1280" height="720">
+<img id="bcard-5-ent" src="https://i.postimg.cc/j2yJKGJs/Screenshot-2024-05-03-103015.png" alt="business card 5 image" width="1280" height="720">
 
-<a id="bcard-5-live"class="live-link trade-winds-regular" href="keyboard2-5d0c7ftgg-azasiphes-projects.vercel.app"> <i class="fas fa-external-link-alt"></i>live</a>
-<a id="bcard-5-code"class="code-link trade-winds-regular" href="https://github.com/azasiphe/keyboard-android.gi"> <i class="fab fa-github"></i>code</a>
+<a id="bcard-5-live"class="live-link trade-winds-regular" href="https://soduko-azasiphes-projects.vercel.app/"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-5-code"class="code-link trade-winds-regular" href="https://github.com/azasiphe/soduko.git"> <i class="fab fa-github"></i>code</a>
 
 <img id="bcard-6-ent" src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" alt="business card 6 image" width="1280" height="720">
 
