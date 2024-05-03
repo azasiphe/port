@@ -163,7 +163,15 @@
                             <div class="card-back">
                                 <div class="card-content2">
                                     <p>Code Telligence</p>
-                                    <p>It was a challanging journey i was doing lot of module in a short of period of time but these lot of things i've learnt in that time.that kept me long for more in tech field .</p>
+                                    <p>In the bootcamp I completed NQF LEVEL 5 modules that included CompTIA A+  which equipped me with proficiency in:
+
+Modeling language for software and systems development.
+
+Understanding computers and computing systems.
+
+Enhancing logical thinking skills.
+
+Mastering basic calculation techniques.</p>
                                 </div>
                             </div>
                             
@@ -246,8 +254,8 @@
                         </div>
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/FKCHqvVK/download-20.png" class="skill-image" />
-                                <p class="skill-name">Python</p>
+                                <img src="https://i.postimg.cc/5y5qpHgq/SCRUM-1.png" class="skill-image" />
+                                <p class="skill-name">Scrum</p>
                             </div>
                         </div>
                         <div class="card skill-card">
@@ -523,8 +531,8 @@
 
 <img id="bcard-6-ent" src="https://i.ibb.co/6rTZ6mg/Screenshot-2024-04-04-154906.png" alt="business card 6 image" width="1280" height="720">
 
-<a id="bcard-6-live"class="live-link trade-winds-regular" href="turbo-git-main-azasiphes-projects.vercel.app"> <i class="fas fa-external-link-alt"></i>live</a>
-<a id="bcard-6-code" class="code-link trade-winds-regular " href="https://github.com/azasiphe/capstone-project.git"> <i class="fab fa-github"></i>code</a>
+<a id="bcard-6-live"class="live-link trade-winds-regular" href="https://turbo-gilt.vercel.app/"> <i class="fas fa-external-link-alt"></i>live</a>
+<a id="bcard-6-code" class="code-link trade-winds-regular " href="https://turbo-gilt.vercel.app/"> <i class="fab fa-github"></i>code</a>
 
 
 <div class="lightbox-backdrop"></div>
@@ -1890,10 +1898,11 @@ box-shadow:4px solid #1f2029;
   background: url("https://i.ibb.co/qkFSFhJ/Screenshot-2024-04-05-091405.png");
   transform: translateZ(4.5in) translateX(-0.8in) translateY(0.6in)
     rotateX(-80deg) rotateY(0deg) rotateZ(-20deg);
+   
 }
 
 .nature-section .surface .card-p:nth-child(5) {
-  background: url("https://i.ibb.co/0tHLJC5/Screenshot-2023-11-02-100200.png");
+  background: url("https://i.postimg.cc/j2yJKGJs/Screenshot-2024-05-03-103015.png");
   transform: translateZ(5.8in) translateX(1.4in) translateY(-0.7in)
     rotateX(-70deg) rotateY(0deg) rotateZ(15deg);
 }
