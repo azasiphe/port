@@ -123,13 +123,13 @@
     <section id="education" class="container-fluid mb-5" >
         <div>
             <div class="alli">
-                <h2 class="trade-winds-regular">Education</h2>
+                <h2 class="trade-winds-regular" style="margin-bottom: 3%;">Education</h2>
                 <div class="card-container trade-winds-regular">
                     <div class="card trade-winds-regular">
                         <div class="card-inner">
-                            <div class="card-front">
-                                <div class="card-icon">🎓</div>
-                                <div class="card-content1" style="color:black;">
+                            <div class="card-front" style="height: 150%">
+                                <div class="card-icon" style="margin-top: 10px;">🎓</div>
+                                <div class="card-content1" style="color:black;  margin-top: 10px;">
                                     <p>Kwamfundo High School</p>
                                     <p>2018 - 2022</p>
                                 </div>
@@ -151,9 +151,9 @@
                     <div class="card-container trade-winds-regular">
                     <div class="card trade-winds-regular">
                         <div class="card-inner trade-winds-regular">
-                            <div class="card-front trade-winds-regular">
-                                <div class="card-icon">🎓</div>
-                                <div class="card-content1" style="color:black;">
+                            <div class="card-front trade-winds-regular" style="height: 110%;" >
+                                <div class="card-icon" style="margin-top: 10px;">🎓</div>
+                                <div class="card-content1" style="color:black; justify-content: center; margin-top: 10px;">
                                     <p>Code Telligence</p>
                                     <p>Jan 2023 - Jun 2023</p>
                                     
@@ -183,9 +183,9 @@ Mastering basic calculation techniques.</p>
                   <div class="card-container">
                     <div class="card">
                         <div class="card-inner">
-                            <div class="card-front">
-                                <div class="card-icon">🎓</div>
-                                <div class="card-content1">
+                            <div class="card-front trade-winds-regular" style="height: 100%;" >
+                                <div class="card-icon" style="margin-top: 10px;">🎓</div>
+                                <div class="card-content1" style="margin-top: 10px; color:black;">
                                     <p>Life Choices</p>
                                     <p>Sep 2023 - march 2024</p>
                                 </div>
@@ -195,8 +195,8 @@ Mastering basic calculation techniques.</p>
                             <div class="card-back">
                                 <div class="card-content2">
                                     <p>Life Choices</p>
-                                    <p>I've learnt a lot in the academy technical work,soft skills personal development and also work ethics ,it was a quit greate journey </p>
-                                </div>
+                                    <p> I've honed proficiency in coding languages such as HTML, CSS, MySQL, and JavaScript. Additionally, my familiarity with web development tools like Vue.js and Node.js enables me to create innovative digital experiences. Through developing interactive websites that prioritize user experience and visual appeal, I've consistently showcased dedication, meticulous attention to detail, and a genuine passion for web development</p>
+                                  </div>
                             </div>
                             
 
@@ -204,15 +204,15 @@ Mastering basic calculation techniques.</p>
                     </div>
                   </div>
               
-                <h2 class="trade-winds-regular mt-2" style="margin-bottom:7%;">Experience</h2>
+                <h2 class="trade-winds-regular mt-2" style="margin-top:8%;  margin-bottom:5%;" >Experience</h2>
              
                     <div class="card-1 trade-winds-regular " >
                        
                             <div class="card-front" style="background-color: black; margin: 0 0 0 19%; position:relative; margin-bottom:7%; ">
                                 <div class="card-content1 " style="background-color: black; margin: 0 0 0 8%; position:relative; ">
-                                  <img src="https://i.ibb.co/xs1PS7L/lc-studio.jpg" style="width:30%; margin: 0 0 0 28%; " />
+                                  <img src="https://i.ibb.co/xs1PS7L/lc-studio.jpg" style="width:20%; margin: 0 0 0 32%; margin-top: 5px; margin-bottom: 5px; " />
                                     
-                                    <p style="color:bisque; font-size: 25px; margin: 0 0 0 1%; " >As  fullstack developer and  Intern at LC STUDIO, I am deeply driven by the art of crafting visually captivating and seamlessly functional websites.
+                                    <p style="color:bisque; font-size: 17px; margin-left: -8%; " >As  fullstack developer and  Intern at LC STUDIO, I am deeply driven by the art of crafting visually captivating and seamlessly functional websites.
 
  
 
@@ -248,12 +248,7 @@ Eagerly, I anticipate leveraging this newfound expertise to craft remarkable dig
                             </div>
                         </div>
                         
-                        <div class="card skill-card">
-                            <div class="card-content">
-                                <img src="https://i.postimg.cc/Zn8ZTzpp/download-23.png" class="skill-image" />
-                                <p class="skill-name">Figma</p>
-                            </div>
-                        </div>
+                        
                         <div class="card skill-card">
                             <div class="card-content">
                                 <img src="https://i.postimg.cc/CK5Fbtpp/download-22.png" class="skill-image" />
@@ -273,7 +268,12 @@ Eagerly, I anticipate leveraging this newfound expertise to craft remarkable dig
                                 <p class="skill-name">Node.JS</p>
                             </div>
                         </div>
-  
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/m2YjJcPd/Figma-1.png" class="skill-image" />
+                                <p class="skill-name">Figma</p>
+                            </div>
+                        </div>
                         <div class="card skill-card">
                             <div class="card-content">
                                 <img src="https://i.postimg.cc/5y5qpHgq/SCRUM-1.png" class="skill-image" />
@@ -1270,16 +1270,18 @@ font-size:lighter;
     transition: 200ms;
 }
 
-.card-front,
-.card-back {
+.card-front
+ {
+  
  width: 60%;
- height: 110%;
+ height: auto;
+ 
 
 }
 
 .card-front {
  background-color: red; 
- padding: -50px;
+ padding: -60px;
  border: 3px solid white;
  position:fixed;
  backface-visibility: hidden;
