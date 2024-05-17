@@ -248,7 +248,7 @@ Eagerly, I anticipate leveraging this newfound expertise to craft remarkable dig
                             </div>
                         </div>
                         
-                        
+                      
                         <div class="card skill-card">
                             <div class="card-content">
                                 <img src="https://i.postimg.cc/CK5Fbtpp/download-22.png" class="skill-image" />
@@ -270,10 +270,26 @@ Eagerly, I anticipate leveraging this newfound expertise to craft remarkable dig
                         </div>
                         <div class="card skill-card">
                             <div class="card-content">
+                                <img src="https://i.postimg.cc/DwYnJqG0/wordpress-black1876.jpg" class="skill-image" />
+                                <p class="skill-name">WORDPRESS</p>
+                            </div>
+                        </div>
+
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/tJyjQkKS/images-3.jpg" class="skill-image" />
+                                <p class="skill-name">UI/UX</p>
+                            </div>
+                        </div>
+                       
+                        <div class="card skill-card">
+                            <div class="card-content">
                                 <img src="https://i.postimg.cc/m2YjJcPd/Figma-1.png" class="skill-image" />
                                 <p class="skill-name">Figma</p>
                             </div>
                         </div>
+                       
+  
                         <div class="card skill-card">
                             <div class="card-content">
                                 <img src="https://i.postimg.cc/5y5qpHgq/SCRUM-1.png" class="skill-image" />
