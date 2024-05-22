@@ -16,8 +16,8 @@
 </div>
 
           </div>
-          <div class="col-12 text-center mb-3">
-            <h2 class="trade-winds-regular"style="font-size: 29px; color: antiquewhite; font-weight:bolder; font-style:italic; text-shadow: red 3PX 5PX 14PX;" >A WEB DEVELOPER</h2>
+          <div class="col-12 text-center mb-3" id="web-dev">
+            <h2 class="trade-winds-regular"  id="web" style="font-size: 29px; color: antiquewhite; font-weight:bolder; font-style:italic; text-shadow: red 3PX 5PX 14PX;" >A WEB DEVELOPER</h2>
           </div>
           <div class="col-12 text-center">
             <p>
@@ -591,7 +591,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "use strict";
 
         $('.cv-button').on('click', function() {
-      window.open('https://i.postimg.cc/RF2NPtmh/White-Red-Simple-Fashion-Designer-Resume.jpg', '_blank');
+      window.open('https://i.postimg.cc/DZDd04sH/LEARNING-JOURNEY-Life-Choices-Coding-Academy-Certificate-in-Fullstack-Web-Development-September-2022.jpg', '_blank');
     });
 
         //Page cursors
@@ -2269,6 +2269,12 @@ height:15;
   .nature-section  #close-button {
     top: 10%;
   }
+  
+  #web {
+     
+     font-size: 10px;   
+     margin-top: 50px;
+   }
 }
 
 @media (min-height: 590px) and (max-height: 670px) {
@@ -2290,6 +2296,11 @@ height:15;
   .card-p {
     max-width: calc(50% - 40px); /* Two cards per row */
   }
+  #web {
+     
+     font-size: 10px;   
+     margin-top: 50px;
+   }
 }
 
 @media (max-width: 480px) {
@@ -2298,5 +2309,44 @@ height:15;
   }
 }
 
+@media (max-width: 768px) {
+      .about-text, .contact-text {
+        font-size: 10px;
+        margin-top: 50px;
+      }
 
+      #web {
+        display: none;
+        
+      }
+
+      .about-text i, .contact-text i {
+        display: none;
+      }
+      .container.azasiphe-ndoro {
+        font-size: 10px;
+        margin-bottom: 30%;
+      }
+
+      .section-center {
+        margin-top: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .about-text, .contact-text {
+        font-size: 1px;
+        margin-top: -13px;
+      }
+
+     
+
+      .container.azasiphe-ndoro {
+        font-size: 35px;
+      }
+
+      .section-center {
+        margin-top: 5px;
+      }
+    }
 </style>
