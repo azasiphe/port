@@ -204,25 +204,52 @@ Mastering basic calculation techniques.</p>
                     </div>
                   </div>
               
-                <h2 class="trade-winds-regular mt-2" style="margin-top:8%;  margin-bottom:5%;" >Experience</h2>
-             
-                    <div class="card-1 trade-winds-regular " >
+                <h2 class="trade-winds-regular mt-2" style="margin-top:8%;  margin-bottom:5%;" id="ex" >Experience</h2>
+                
+                    <div class="card-1 trade-winds-regular " id="exp" >
                        
-                            <div class="card-front" style="background-color: black; margin: 0 0 0 19%; position:relative; margin-bottom:7%; ">
-                                <div class="card-content1 " style="background-color: black; margin: 0 0 0 8%; position:relative; ">
-                                  <img src="https://i.ibb.co/xs1PS7L/lc-studio.jpg" style="width:20%; margin: 0 0 0 32%; margin-top: 5px; margin-bottom: 5px; " />
+                    <div class="card-container trade-winds-regular">
+                    <div class="card trade-winds-regular">
+                        <div class="card-inner trade-winds-regular">
+                            <div class="card-front trade-winds-regular" style="height:70%; width: 60% ; margin-top: 10%;" >
+                                <div class="card-icon" style="margin-top: 10px; color: black;">  <i class="bi bi-briefcase-fill"></i></div>
+                                <div class="card-content1" style="color:black; justify-content: center; margin-top: 10px;">
+                                    <p>LC Studio</p>
+                                    <p>March 2023 - Present</p>
                                     
-                                    <p style="color:bisque; font-size: 17px; margin-left: -8%; " >As  fullstack developer and  Intern at LC STUDIO, I am deeply driven by the art of crafting visually captivating and seamlessly functional websites.
-
- 
-
-I firmly hold the belief that a website should not only dazzle the eyes but also deliver an effortless user experience. Throughout my internship journey, I've actively collaborated with seasoned developers, absorbing the most current web development methodologies and technologies.
-
-
-
-Eagerly, I anticipate leveraging this newfound expertise to craft remarkable digital landscapes for our clientele</p>
                                 </div>
                             </div>
+                          
+                            <div class="card-back">
+                                <div class="card-content2">
+                                    <p>LC Studio</p>
+                                    <p>In LC Studio, I have upskilled myself significantly through various projects and roles:
+
+Figma Prototyping: Developed interactive prototypes to visualize design concepts effectively.
+
+Website Creation: Created websites using WordPress and Elementor, ensuring user-friendly interfaces.
+
+SEO Implementation: Implemented SEO structures to enhance website visibility and performance.
+
+Docker: Recently learned Docker and plan to integrate it into my portfolio projects
+  
+   Key Achievements:
+
+Team Collaboration: Worked closely with team members, emphasizing collaboration to find effective solutions.
+
+Leadership: Chosen as the leader for a website-building project, where I coordinated tasks and guided the team to success.
+
+This role at LC Studio has honed my technical abilities and reinforced the                              importance of teamwork and leadership in achieving project goals.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                  </div>
+                  
+               
+                            
+                            
                             </div>
                            
                           
@@ -1317,85 +1344,68 @@ backface-visibility: hidden;
  padding: 15px;
  transform: rotateY(180deg);
  opacity: 0;
-}  
- .skills-container {
-   display: grid;
-   grid-template-columns: repeat(4, 1fr); 
-   gap:10px;
-   margin: 0 0 0 16%; 
-   position: relative;
-   top: 10%;
-   margin-top: 50px; 
- }
-
- .skill-card {
-   width: 150px;
-   height: 150px; 
-   margin: 8px; 
-   border-radius: 50%; 
-   border: 3px solid red;
-   overflow: hidden; 
-   position: relative;
-   transition: transform 0.3s ease;
- }
-
- .skill-card:hover {
-   transform: scale(1.2); /* Enlarge on hover */
-   z-index: 2; /* Bring to front on hover */
- }
-
- .card-content {
-   width: 100%;
-   height: 80%;
-   position: relative;
-   top: 5%;
-   left: 0;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-  
- }
-
- .skill-image {
-   width: 80%; 
-   height: auto;
-   position: relative;
-   bottom: 10%;
- }
-
- .skill-name {
-  position: relative;
-  bottom: 5%;
-   font-size: 20px; 
-   opacity: 0; 
-   transition: opacity 0.3s ease;
- }
- @media (max-width: 768px) {
-  .skills-container {
-    grid-template-columns: repeat(2, 1fr); /* Two columns per row on smaller screens */
-    margin-left: -28px; /* Adjusted margin for smaller screens */
-  }
-  .card-1{
-    margin-left: -115px; 
-    width: 180%;
- height: 60%;
-  }
-  
-  .card-inner  {
-  margin: 0 0 0 4%;
- width: 100%;
- height: 60%;
- color:black;
- transition: transform 0.7s;
- transform-style: preserve-3d;
-}
+} 
 
 
-}
- .skill-card:hover .skill-name {
-   opacity: 1; /* Show skill name on hover */
- }
+.skills-section {
+            text-align: center;
+            margin-top: 8%;
+            margin-bottom: 5%;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 50px 16% 0 16%; 
+        }
+
+        .skill-card {
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .skill-card:hover {
+            transform: scale(1.05);
+            border-color: red;
+            border-width: 5px;
+        }
+
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .skill-image {
+            width: 80%;
+            height: auto;
+            filter: grayscale(100%);
+            transition: filter 0.3s ease;
+        }
+
+        .skill-card:hover .skill-image {
+            filter: grayscale(0%);
+        }
+
+        .skill-name {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .skills-container {
+                grid-template-columns: 1fr;
+                margin: 50px 5% 0 5%;
+            }
+        }
 .travel-close:hover,
 .wildlife-close:hover,
 .nature-close:hover {
@@ -2349,4 +2359,19 @@ height:15;
         margin-top: 5px;
       }
     }
+
+    
+    @media (max-width: 768px) {
+           #exp .card-front {
+            
+                margin-left: 12%;
+            }
+            #exp .card-back {
+                width: 50%;
+                margin: 30%;
+            }
+        
+
+}
+   
 </style>
