@@ -258,19 +258,19 @@ This role at LC Studio has honed my technical abilities and reinforced the      
                         <!-- Skill Cards -->
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/C5Vmp3w3/download-17.png" class="skill-image" />
+                              
                                 <p class="skill-name">HTML</p>
                             </div>     
                         </div>
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/W3ShsrVs/download-36.jpg" class="skill-image" />
+                               
                                 <p class="skill-name">CSS</p>
                             </div>
                         </div>
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/dtGD0zwW/download-19.png" class="skill-image" />
+                               
                                 <p class="skill-name">Vue.js</p>
                             </div>
                         </div>
@@ -278,41 +278,100 @@ This role at LC Studio has honed my technical abilities and reinforced the      
                       
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/CK5Fbtpp/download-22.png" class="skill-image" />
+                            
                                 <p class="skill-name">Bootstrap</p>
                             </div>
                         </div>
                         
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/bJRmbCcY/download-1.png" class="skill-image" />
+                            
                                 <p class="skill-name">JavaScript</p>
                             </div>
                         </div>
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/1tYNLwDc/download-2.png" class="skill-image"  style="width:30%; height:50%;"/>
+                               
                                 <p class="skill-name">Node.JS</p>
                             </div>
                         </div>
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/DwYnJqG0/wordpress-black1876.jpg" class="skill-image" />
+                         
                                 <p class="skill-name">WORDPRESS</p>
                             </div>
                         </div>
 
                         <div class="card skill-card">
                             <div class="card-content">
-                                <img src="https://i.postimg.cc/tJyjQkKS/images-3.jpg" class="skill-image" />
+                         
                                 <p class="skill-name">UI/UX</p>
                             </div>
                         </div>
                        
                         <div class="card skill-card">
                             <div class="card-content">
+                             
+                                <p class="skill-name">JQUERY</p>
+                            </div>
+                        </div>
+
+                        <div class="card skill-card">
+                            <div class="card-content">
+                             
+                                <p class="skill-name">DRUPAL</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card skill-card">
+                            <div class="card-content">
+                              
+                                <p class="skill-name">DOCKER</p>
+                            </div>
+                        </div>
+
+                        <div class="card skill-card">
+                            <div class="card-content">
+                            
+                                <p class="skill-name">FIGMA</p>
+                            </div>
+                        </div>
+                       
+                        
+                        
+                        <div class="card skill-card">
+                            <div class="card-content">
+                            
+                                <p class="skill-name">EXPRESS.JS</p>
+                            </div>
+                        </div>
+                       
+                        <div class="card skill-card">
+                            <div class="card-content">
+                            
+                                <p class="skill-name">SEO</p>
+                            </div>
+                        </div>
+
+
+                       
+                        <!-- Repeat the above structure for each skill data item -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="trade-winds-regular " style="position:relative; bottom:-30%; top:-50%;">Certification and Badges</h2>
+                    <div class="skills-container trade-winds-regular" style="position:relative; margin-top:5%;" >
+                        <!-- Skill Cards -->
+                     
+                      
+                     
+                      
+                       
+                        <div class="card skill-card">
+                            <div class="card-content">
                                 <img src="https://i.postimg.cc/m2YjJcPd/Figma-1.png" class="skill-image" />
-                                <p class="skill-name">Figma</p>
+                                <p class="skill-name">FIGMA</p>
                             </div>
                         </div>
                        
@@ -320,14 +379,36 @@ This role at LC Studio has honed my technical abilities and reinforced the      
                         <div class="card skill-card">
                             <div class="card-content">
                                 <img src="https://i.postimg.cc/5y5qpHgq/SCRUM-1.png" class="skill-image" />
-                                <p class="skill-name">Scrum</p>
+                                <p class="skill-name">SCRUM</p>
+                            </div>
+                        </div>
+
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/s2sDsf3L/Screenshot-2024-05-28-100516.png" class="skill-image" />
+                                <p class="skill-name">DOKER </p>
+                            </div>
+                        </div>
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/FzZwbvMY/Screenshot-2024-05-28-095038.png" class="skill-image" />
+                                <p class="skill-name">DOCKER</p>
+                            </div>
+                        </div>
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/0j2Vsw4N/seo2.png" class="skill-image" />
+                                <p class="skill-name">SEO </p>
+                            </div>
+                        </div>
+                        <div class="card skill-card">
+                            <div class="card-content">
+                                <img src="https://i.postimg.cc/gk1HMQGj/SEO.png" class="skill-image" />
+                                <p class="skill-name">SEO</p>
                             </div>
                         </div>
                         <!-- Repeat the above structure for each skill data item -->
-                    </div>
-                </div>
-            </div>
-        </div>
+                      </div>
     </section>
 </div>
 
@@ -618,7 +699,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "use strict";
 
         $('.cv-button').on('click', function() {
-      window.open('https://i.postimg.cc/DZDd04sH/LEARNING-JOURNEY-Life-Choices-Coding-Academy-Certificate-in-Fullstack-Web-Development-September-2022.jpg', '_blank');
+      window.open('https://i.postimg.cc/05DmCfVd/aza.jpg', '_blank');
     });
 
         //Page cursors
@@ -1354,10 +1435,9 @@ backface-visibility: hidden;
         }
 
         .skills-container {
-          width: 100%;
-          height: 100%;
+          
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(4, 1fr );
             gap: 10px;
             margin: 50px 16% 0 16%; 
         }
@@ -1636,7 +1716,7 @@ body.nature-on .nature-section {
     }
     .video .overlay .social  {
         margin-top: 10px;        
-        margin:15px;
+        margin:16px;
         padding:10px;
         font-size: 10px;
     }
