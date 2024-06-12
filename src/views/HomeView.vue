@@ -1354,6 +1354,8 @@ backface-visibility: hidden;
         }
 
         .skills-container {
+          width: 100%;
+          height: 100%;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 10px;
@@ -1361,6 +1363,8 @@ backface-visibility: hidden;
         }
 
         .skill-card {
+          width: 50%;
+          height: 100%;
             background-color: white;
             border: 3px solid black;
             border-radius: 10px;
@@ -1372,7 +1376,7 @@ backface-visibility: hidden;
         .skill-card:hover {
             transform: scale(1.05);
             border-color: red;
-            border-width: 5px;
+            border-width: 3px;
         }
 
         .card-content {
@@ -1384,8 +1388,8 @@ backface-visibility: hidden;
         }
 
         .skill-image {
-            width: 80%;
-            height: auto;
+            width: 50%;
+            height: 100%;
             filter: grayscale(100%);
             transition: filter 0.3s ease;
         }
